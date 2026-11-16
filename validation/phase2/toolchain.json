@@ -1,0 +1,28 @@
+{
+  "seven_zip": {
+    "source": "https://deb.debian.org/debian/pool/main/7/7zip/7zip-standalone_25.01+dfsg-1~deb13u2_amd64.deb",
+    "package_sha256": "7cd1563a6bf989c97aa8c12266cf892c1821eb737aeb9bba28d8e7f6613bd495"
+  },
+  "qemu": {
+    "source": "https://deb.debian.org/debian/pool/main/q/qemu/qemu-user_10.0.13+ds-0+deb13u1_amd64.deb",
+    "package_sha256": "ca6ede739327a20ae5a3498230c8a3a9a072c586e131bc6bcc1201eb1725e336",
+    "binary_sha256": "73cc2584f119f9e74c85c0a8549dbb6fd104ae3897a06a7500797f9e5b4d0943",
+    "version": "qemu-aarch64 version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1)\nCopyright (c) 2003-2025 Fabrice Bellard and the QEMU Project developers"
+  },
+  "reflink_supported": false,
+  "phase1_commit": "ea409798df76366ff8e3dc76fe16fe53406e2ea5",
+  "avbtool": {
+    "sha256": "78a50c8620985709f2e131cf948dcd66ecc43f09ed735e09d75751a7e21e4eb8"
+  },
+  "public_aosp_test_fixture": {
+    "sha256": "f1d5765a2bdfb92fb08aee021107c7ac1a7a3f590dafd853771c85375ef0fbd7"
+  },
+  "fec_helper": {
+    "sha256": "90282d0c642decc66d516dc332043465d57c219fa6253600c07bb664116f3bb6"
+  },
+  "libfec_dev": {
+    "source": "https://deb.debian.org/debian/pool/main/libf/libfec/libfec-dev_1.0-26-gc5d935f-1+b3_amd64.deb",
+    "sha256": "54c044546f0d36719993e87c0654db15270f438d326a934e2a1ac874050a1d0c"
+  },
+  "fec_method": "raw AOSP interleaving + libfec RS encoder; all 26,198,016 original parity bytes matched"
+}

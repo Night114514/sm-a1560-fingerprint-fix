@@ -20,5 +20,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Files in docs/upstream/ retain their upstream licenses and notices, including
+tools/fec_raw.cpp is Apache-2.0. Files in docs/upstream/ retain their upstream licenses and notices, including
 Apache License 2.0; the MIT license above does not replace those licenses.

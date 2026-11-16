@@ -1,0 +1,3 @@
+avbtool.py: OK
+testkey_rsa2048.pem: OK
+Prepared pinned avbtool and PUBLIC AOSP TEST fixture in work/avb-pinned

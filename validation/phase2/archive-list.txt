@@ -1,0 +1,29 @@
+
+7-Zip (z) 25.01 (x64) : Copyright (c) 1999-2025 Igor Pavlov : 2025-08-03
+ 64-bit locale=C.UTF-8 Threads:3 OPEN_MAX:16384, ASM
+
+Scanning the drive for archives:
+1 file, 1127244589 bytes (1076 MiB)
+
+Listing archive: /workspace/work/gsi/original/LineageOS-22.2-20260105-GAPPS-EXT4-GSI.7z
+
+--
+Path = /workspace/work/gsi/original/LineageOS-22.2-20260105-GAPPS-EXT4-GSI.7z
+Type = 7z
+Physical Size = 1127244589
+Headers Size = 194
+Method = LZMA2:25
+Solid = -
+Blocks = 1
+
+----------
+Path = LineageOS-22.2-20260105-GAPPS-EXT4-GSI.img
+Size = 3340144640
+Packed Size = 1127244395
+Modified = 2026-01-05 19:54:10.7943490
+Attributes = A -rw-r--r--
+CRC = 891C44A8
+Encrypted = -
+Method = LZMA2:25
+Block = 0
+

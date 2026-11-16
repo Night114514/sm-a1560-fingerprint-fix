@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): false
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=SM-A1560 RRO Experiment
+Signer #1 certificate SHA-256 digest: b1b39dd96a0d48fd4c40195fb8c19114bcf09786c0fa54d832c39adf8d2ebb65
+Signer #1 certificate SHA-1 digest: fe88e5eeb43923213bc92c109388894bf6c3d462
+Signer #1 certificate MD5 digest: 9f315e7437ce630dff0f6a0f325e268b
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 2126db2d65efdf4618dc5bc8f588229ffc9a36d47109d653aaa6f4ebae74e962
+Signer #1 public key SHA-1 digest: 751251862a6a1188b3aa99001b4f62afff52f229
+Signer #1 public key MD5 digest: 3155b4a5d3540e0b01787dff9fb8a1d3

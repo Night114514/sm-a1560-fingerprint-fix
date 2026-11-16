@@ -1,0 +1,163 @@
+{
+  "method": "original Android ARM64 idmap2 under QEMU",
+  "image_sha256": "cd3599e056ba82bc19379fbca7e81ee572589e0dd81b75092c1fee1691a077b7",
+  "qemu_sha256": "73cc2584f119f9e74c85c0a8549dbb6fd104ae3897a06a7500797f9e5b4d0943",
+  "files": [
+    {
+      "image_path": "/bin/linker64",
+      "from_runtime_apex": true,
+      "file": "linker64",
+      "sha256": "f8d77c850b49ee241990cc62c27b4b7ff62ad2d977b6066b4e1736a8c439850c"
+    },
+    {
+      "image_path": "/system/bin/idmap2",
+      "from_runtime_apex": false,
+      "file": "idmap2",
+      "sha256": "1ca26b0728be297fe9e50f95bcff79701ebd1aeedc2cb334cfe1c686a069af2c"
+    },
+    {
+      "image_path": "/system/lib64/libandroidfw.so",
+      "from_runtime_apex": false,
+      "file": "lib64/libandroidfw.so",
+      "sha256": "ec1d90dd21f8410f5d9c4ae8f5974b26ff135a55c9343e903e10855c9f5cb414"
+    },
+    {
+      "image_path": "/system/lib64/libbase.so",
+      "from_runtime_apex": false,
+      "file": "lib64/libbase.so",
+      "sha256": "fbb5a980b4fc9be54ebf9e8dfb6e396b8ad03b5b921f02bb0ecd901bdc8717ec"
+    },
+    {
+      "image_path": "/system/lib64/libcutils.so",
+      "from_runtime_apex": false,
+      "file": "lib64/libcutils.so",
+      "sha256": "65cc0d54e626d7f01faa47abe330427ae059d9fa40de4842ae66bdfd4044cebf"
+    },
+    {
+      "image_path": "/system/lib64/libidmap2.so",
+      "from_runtime_apex": false,
+      "file": "lib64/libidmap2.so",
+      "sha256": "fe2c5b041be375d6126c86d0cb43c16b209be209c7ddc1873fd6aa91608561b7"
+    },
+    {
+      "image_path": "/system/lib64/libpng.so",
+      "from_runtime_apex": false,
+      "file": "lib64/libpng.so",
+      "sha256": "525a165ff79c37d075d3785054b8cc4ce61459f3484b77f90b46728aea02eb14"
+    },
+    {
+      "image_path": "/system/lib64/libprotobuf-cpp-lite.so",
+      "from_runtime_apex": false,
+      "file": "lib64/libprotobuf-cpp-lite.so",
+      "sha256": "464d298d27298c6415a0925647d08f38478f98977f39c3331d7b3bb1c7312028"
+    },
+    {
+      "image_path": "/system/lib64/libutils.so",
+      "from_runtime_apex": false,
+      "file": "lib64/libutils.so",
+      "sha256": "970656148387a6e3dce09bb9b2cf81285b8407299482d1a081a9bccbd0a2190c"
+    },
+    {
+      "image_path": "/system/lib64/libz.so",
+      "from_runtime_apex": false,
+      "file": "lib64/libz.so",
+      "sha256": "073885a5ce7224246a9ea9a662356efac1c49f526f680056e40fe56077fccff0"
+    },
+    {
+      "image_path": "/system/lib64/libziparchive.so",
+      "from_runtime_apex": false,
+      "file": "lib64/libziparchive.so",
+      "sha256": "119e6ea8768e686068e18b1063b8dcc6179b4f2d0682b10a5e5bd3a4d335d0a0"
+    },
+    {
+      "image_path": "/system/lib64/libc++.so",
+      "from_runtime_apex": false,
+      "file": "lib64/libc++.so",
+      "sha256": "9c049c3162c05531936ff4b3d78473e9daddc06b5c501f5384a7413975058217"
+    },
+    {
+      "image_path": "/lib64/bionic/libc.so",
+      "from_runtime_apex": true,
+      "file": "lib64/libc.so",
+      "sha256": "e7f7bcbb0e3ead3fe933da78ea37c233fe118ed3d0a900cf390950717940d3b6"
+    },
+    {
+      "image_path": "/lib64/bionic/libm.so",
+      "from_runtime_apex": true,
+      "file": "lib64/libm.so",
+      "sha256": "4f801773d48b7357fffcdd15ea41d3e4d740cfeffafb20e85dd5dbe7e7a9840d"
+    },
+    {
+      "image_path": "/lib64/bionic/libdl.so",
+      "from_runtime_apex": true,
+      "file": "lib64/libdl.so",
+      "sha256": "a108ab3d81159e94dcde32e2888aa3fd90aa355a194ab0480318568386bb02fd"
+    },
+    {
+      "image_path": "/system/lib64/ld-android.so",
+      "from_runtime_apex": false,
+      "file": "lib64/ld-android.so",
+      "sha256": "8c0f39337049618b77a7c3beaa4fedc9519852f4bb32ca0e7e71766fc89a0633"
+    },
+    {
+      "image_path": "/system/lib64/liblog.so",
+      "from_runtime_apex": false,
+      "file": "lib64/liblog.so",
+      "sha256": "7fdf1cd797cf4b94926837a1174690f6c8bc1d8b5a96e878906c665fbfa4ba54"
+    },
+    {
+      "image_path": "/system/lib64/libvndksupport.so",
+      "from_runtime_apex": false,
+      "file": "lib64/libvndksupport.so",
+      "sha256": "000809461fb2622747f4aa9120fc13d702d4c2a767fe410d1e648c9f9328209b"
+    },
+    {
+      "image_path": "/lib64/bionic/libdl_android.so",
+      "from_runtime_apex": true,
+      "file": "lib64/libdl_android.so",
+      "sha256": "6173219a5e133702182648edde55f98c478e295a80e3191ee69ae39b66d8e7bf"
+    },
+    {
+      "image_path": "/system/lib64/libbinder.so",
+      "from_runtime_apex": false,
+      "file": "lib64/libbinder.so",
+      "sha256": "dc3fe417ce657273d3f31ead41319a1f879c4ba9383ce3fe15e2bf9de23400e6"
+    },
+    {
+      "image_path": "/system/lib64/libincfs.so",
+      "from_runtime_apex": false,
+      "file": "lib64/libincfs.so",
+      "sha256": "6290f015c7642be05418cbafcf82f450ef1b403484e892d6af9ae085665c7909"
+    },
+    {
+      "image_path": "/system/lib64/libcrypto.so",
+      "from_runtime_apex": false,
+      "file": "lib64/libcrypto.so",
+      "sha256": "4bf3491775e127a30fd6090e2dffa1cf3c7ccd5499ce8d69ca82c2ab7dda648b"
+    },
+    {
+      "image_path": "/system/lib64/libselinux.so",
+      "from_runtime_apex": false,
+      "file": "lib64/libselinux.so",
+      "sha256": "0a508b72aa524a9c8396795b788744473bbc2905bfb9658ec31011e1fc5705d3"
+    },
+    {
+      "image_path": "/system/lib64/libpcre2.so",
+      "from_runtime_apex": false,
+      "file": "lib64/libpcre2.so",
+      "sha256": "b04c1e73dd9bf79f899eb15467eb47c025d9383ae5f750ef88a4c978fe014316"
+    },
+    {
+      "image_path": "/system/lib64/libpackagelistparser.so",
+      "from_runtime_apex": false,
+      "file": "lib64/libpackagelistparser.so",
+      "sha256": "52bb6e53a00e9c7b7329731d9dad0ebfc59f792917d3861df498d3f6db9ac888"
+    },
+    {
+      "image_path": "/system/lib64/libapexsupport.so",
+      "from_runtime_apex": false,
+      "file": "lib64/libapexsupport.so",
+      "sha256": "2752bdd479552c5ef3d7620d9ef1825259cfaa06e226acdc7249d17532acd666"
+    }
+  ]
+}

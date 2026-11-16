@@ -32,15 +32,23 @@ def tools():
         require(shutil.which(t), f'Missing {t}; see README.md dependencies')
 
 
-def image_info(path):
+def image_info(path, allow_avb=False):
     require(path.is_file(), f'Not a regular image: {path}')
     size = path.stat().st_size
+    avb = None
     with path.open('rb') as f:
         magic = f.read(4)
         require(magic != b'\x3a\xff\x26\xed', 'Android sparse image: convert a COPY using simg2img first')
         if size >= 64:
             f.seek(-64, 2)
-            require(f.read(4) != b'AVBf', 'AVB footer detected. No automatic AVB/vbmeta changes are permitted')
+            footer = f.read(64)
+            if footer[:4] == b'AVBf':
+                require(allow_avb, 'AVB footer detected. Explicit same-key AVB mode is required; default patching refuses it')
+                _, major, minor, original_size, vbmeta_offset, vbmeta_size = struct.unpack('!4sIIQQQ28x', footer)
+                require((major, minor) == (1, 0) and footer[36:] == bytes(28), 'Unsupported AVB footer version/reserved fields')
+                require(original_size <= vbmeta_offset and vbmeta_size > 0 and vbmeta_offset + vbmeta_size <= size - 64,
+                        'Invalid AVB offsets/length')
+                avb = {'original_size': original_size, 'vbmeta_offset': vbmeta_offset, 'vbmeta_size': vbmeta_size}
         f.seek(1024)
         sb = f.read(1024)
     require(len(sb) == 1024 and sb[56:58] == b'\x53\xef', 'Expected raw EXT4 (not EROFS/super/compressed image)')
@@ -53,7 +61,8 @@ def image_info(path):
     block_size = 1024 << u32(24)
     blocks = u32(4) | ((u32(336) << 32) if incompat & 0x80 else 0)
     free = u32(12) | ((u32(344) << 32) if incompat & 0x80 else 0)
-    require(size == blocks * block_size, 'Image has an unexplained trailer/padding or is truncated; inspect before patching')
+    require((avb['original_size'] if avb else size) == blocks * block_size,
+            'Image has an unexplained trailer/padding or is truncated; inspect before patching')
     # Refuse visible loop-device attachments; no mounting is performed by this project.
     for f in Path('/sys/block').glob('loop*/loop/backing_file'):
         try:
@@ -62,7 +71,8 @@ def image_info(path):
                     'Image is attached to a loop device; detach/unmount it first')
         except PermissionError:
             pass
-    return {'bytes': size, 'block_size': block_size, 'blocks': blocks, 'free_bytes': free * block_size,
+    return {'bytes': size, 'filesystem_bytes': blocks * block_size, 'avb_footer': avb,
+            'block_size': block_size, 'blocks': blocks, 'free_bytes': free * block_size,
             'incompat': hex(incompat), 'ro_compat': hex(rocompat)}
 
 
@@ -317,7 +327,14 @@ def patch(a):
     require(not report.exists(), 'Report path already exists; choose a new output/report')
     report.mkdir(parents=True)
     before_hash = sha(source)
-    info = image_info(source)
+    avb_requested = bool(a.avbtool or a.avb_key or a.fec)
+    require(not avb_requested or (a.avbtool and a.avb_key and a.fec), 'AVB mode needs --avbtool, --avb-key and --fec together')
+    info = image_info(source, allow_avb=avb_requested)
+    avb = None
+    if avb_requested:
+        require(info['avb_footer'], 'Explicit AVB mode requires a source AVB footer')
+        from avb_support import AvbSupport
+        avb = AvbSupport(a.avbtool, a.avb_key, a.fec, source, report / 'avb', info['filesystem_bytes'])
     require(info['free_bytes'] >= apk.stat().st_size * 4 + 4 * 1024 * 1024, 'Insufficient free EXT4 blocks; no automatic image resize')
     fsck(source, report / 'input-e2fsck.txt')
     temp_path = None
@@ -377,6 +394,8 @@ def patch(a):
             temp_path = Path(name)
             run(['cp', '--reflink=auto', '--sparse=always', '--', source, temp_path])
             os.chmod(temp_path, 0o600)
+            if avb:
+                avb.prepare_copy(temp_path)
             target = FS(temp_path, scratch)
             for p in [overlaydir, destdir]:
                 if not target.exists(p):
@@ -399,7 +418,8 @@ def patch(a):
                     continue
                 require(after.get(p) == expected, f'Existing overlay/framework/context content or metadata changed: {p}')
             fsck(temp_path, report / 'output-e2fsck.txt')
-            require(image_info(temp_path)['bytes'] == info['bytes'], 'Output image size changed')
+            avb_result = avb.rebuild(temp_path) if avb else None
+            require(image_info(temp_path, allow_avb=bool(avb))['bytes'] == info['bytes'], 'Output image size changed')
             require(sha(source) == before_hash, 'Original input hash changed during patching')
             receipt = {'schema': 1, 'project': 'sm-a1560-fingerprint-fix', 'input_sha256': before_hash,
                        'output_sha256': sha(temp_path), 'apk_sha256': sha(apk), 'bytes': info['bytes'],
@@ -407,6 +427,7 @@ def patch(a):
                        'metadata': planned, 'config_path': cfgpath if new_config is not None else None,
                        'config_sha256': sha(report / 'overlay-config.patched.xml') if new_config is not None else None,
                        'idmap2': apk_result['idmap2'], 'preserved_paths_checked': len(snapshot),
+                       'avb': avb_result,
                        'priority': 'offline default partition/config order checked; device must confirm effective value',
                        'device_enrollment': 'UNTESTED'}
             (report / 'receipt.json').write_text(json.dumps(receipt, indent=2) + '\n')
@@ -430,12 +451,19 @@ def verify_image(a):
     image = Path(a.image).resolve()
     receipt_path = Path(a.receipt or str(image) + '.report/receipt.json')
     receipt = json.loads(receipt_path.read_text())
-    image_info(image)
+    info = image_info(image, allow_avb=bool(receipt.get('avb')))
     require(sha(image) == receipt['output_sha256'], 'Output image SHA-256 does not match receipt')
     if a.original:
         require(sha(a.original) == receipt['input_sha256'], 'Original input SHA-256 does not match receipt')
     report = Path(a.report or str(image) + '.recheck').absolute()
     report.mkdir(parents=True, exist_ok=True)
+    if receipt.get('avb'):
+        require(a.avbtool and a.fec, 'Signed AVB image recheck requires --avbtool and --fec')
+        from avb_support import AvbSupport, prefix_sha
+        avb = AvbSupport(a.avbtool, None, a.fec, image, report / 'avb', info['filesystem_bytes'])
+        require(avb.metadata == receipt['avb']['output'], 'AVB metadata differs from receipt')
+        require(prefix_sha(image, info['filesystem_bytes']) == receipt['avb']['patched_ext4_sha256'],
+                'Checked EXT4 prefix hash differs from receipt')
     fsck(image, report / 'e2fsck.txt')
     with tempfile.TemporaryDirectory(dir=report) as scratch:
         fs = FS(image, scratch)
@@ -463,6 +491,7 @@ def verify_image(a):
         result['original_sha256_verified'] = bool(a.original)
         result['metadata_readback'] = 'PASS'
         result['ext4_check'] = 'PASS'
+        result['avb_signature_hashtree_fec'] = 'PASS' if receipt.get('avb') else 'NOT_PRESENT'
         (report / 'result.json').write_text(json.dumps(result, indent=2) + '\n')
         print(json.dumps(result, indent=2))
 
@@ -477,6 +506,9 @@ def main():
     patcher.add_argument('--partition', choices=['system_ext', 'product'], default='system_ext')
     patcher.add_argument('--report')
     patcher.add_argument('--idmap2')
+    patcher.add_argument('--avbtool', help='Opt-in: AOSP avbtool.py for rebuilding a signed system footer')
+    patcher.add_argument('--avb-key', help='Must match the original embedded AVB signing public key')
+    patcher.add_argument('--fec', help='Verified raw FEC helper executable, named fec')
     patcher.add_argument('--allow-unverified-idmap', action='store_true',
                          help='EXPERIMENT ONLY: logical resource/policy inspection if native host idmap2 is absent')
     v = sub.add_parser('verify')
@@ -486,6 +518,8 @@ def main():
     v.add_argument('--report')
     v.add_argument('--idmap2')
     v.add_argument('--require-idmap', action='store_true')
+    v.add_argument('--avbtool')
+    v.add_argument('--fec')
     a = p.parse_args()
     patch(a) if a.command == 'patch' else verify_image(a)
 

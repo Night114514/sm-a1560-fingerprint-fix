@@ -1,0 +1,12 @@
+{
+  "same_key_avb_patch": "PASS",
+  "signature_hashtree_fec": "PASS",
+  "default_footer_rejection": "PASS",
+  "corruption_rejection": "PASS",
+  "different_signing_key_rejection": "PASS",
+  "source_unchanged": true,
+  "idmap2": "PASS (overlayable enforced; one mapping)",
+  "fixture_bytes": 100663296,
+  "xz_ram_staging_and_hash": "PASS",
+  "is_real_gsi": false
+}

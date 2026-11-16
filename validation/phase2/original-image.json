@@ -1,0 +1,15 @@
+{
+  "filename": "original-system.img",
+  "bytes": 3340144640,
+  "physical_bytes": 3305676800,
+  "sha256": "cd3599e056ba82bc19379fbca7e81ee572589e0dd81b75092c1fee1691a077b7",
+  "archive_crc32_verified": "891C44A8",
+  "magic": "00000000",
+  "ext4_magic": "53ef",
+  "avb_footer": true,
+  "blocks": 802577,
+  "free_blocks": 8242,
+  "incompat": 66,
+  "ro_compat": 123,
+  "block_size": 4096
+}

@@ -1,0 +1,4 @@
+create exit=1
+linker: Warning: failed to find generated linker configuration from "/linkerconfig/ld.config.txt"
+WARNING: linker: Warning: failed to find generated linker configuration from "/linkerconfig/ld.config.txt"
+error: no resources were overlaid -> failed to create idmap

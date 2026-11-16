@@ -1,0 +1,13 @@
+{
+  "reason": "Free disk for a separate full-size patched copy; verified original raw image remains read-only and unchanged.",
+  "download_caches_removed": [
+    "LineageOS-22.2-20260105-GAPPS-EXT4-GSI.7z",
+    "build-tools_r35_linux.zip",
+    "platform-35_r02.zip",
+    "qemu-user.deb"
+  ],
+  "original_raw_sha256": "cd3599e056ba82bc19379fbca7e81ee572589e0dd81b75092c1fee1691a077b7",
+  "original_raw_retained": true,
+  "original_source_url": "https://sourceforge.net/projects/misterztr-gsi/files/LineageOS/Android%2015/LineageOS-22.2-20260105-GAPPS-EXT4-GSI.7z/download",
+  "free_bytes_after_cache_cleanup": 4176560128
+}

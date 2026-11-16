@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "case": "flat-static",
+      "input_sha256": "72bcba83963d3a7b003146f0f6579898624233665308106f77de2276bbab8a9f",
+      "output_sha256": "bbc93063c5c839352243d821c115d950190d105485e89fc38ed5ec4428c9cb8d",
+      "patch": "PASS",
+      "readback": "PASS",
+      "input_preserved": true,
+      "idmap2": "NOT_RUN: install/build Android 15 host idmap2; logical mapping/policy checked only",
+      "is_real_gsi": false
+    },
+    {
+      "case": "nested-configured",
+      "input_sha256": "bcf82ca45d5e79c429d96daf3a7e1bc15c19ec88dcb5eeb527466bf440acb91f",
+      "output_sha256": "2179862220858fcd02d2a0fb6a7ff5f60fdcfc3e2f60d6c872d684a97c04b1c8",
+      "patch": "PASS",
+      "readback": "PASS",
+      "input_preserved": true,
+      "idmap2": "NOT_RUN: install/build Android 15 host idmap2; logical mapping/policy checked only",
+      "is_real_gsi": false
+    }
+  ],
+  "guardrails": "PASS",
+  "real_gsi": "NOT_PROVIDED",
+  "device": "UNTESTED"
+}
+

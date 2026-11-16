@@ -1,0 +1,9 @@
+*.sh text eol=lf
+*.py text eol=lf
+*.cpp text eol=lf
+*.md text eol=lf
+*.apk binary
+*.idmap binary
+*.avbpubkey binary
+*.img binary
+*.xz binary
