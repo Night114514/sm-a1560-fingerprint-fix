@@ -1,0 +1,23 @@
+{
+  "apk_sha256": "4950eecf4aab9ab7ea8f9b46eac5ccb8f144974208af391aaa587e9e53efd9c9",
+  "package": "io.github.sma1560.fingerprintfix",
+  "compiled_array_length": 0,
+  "mapping": {
+    "array/config_biometric_sensors": "0x7f010000"
+  },
+  "signature_verified": true,
+  "zip_alignment_verified": true,
+  "framework": {
+    "sha256": "a898e734d407e77cdeb8a40395035bf6c49b0431a0a0f694a2f47dc3f25d61fc",
+    "resource_id": "0x01010000",
+    "overlayable_groups": false,
+    "fulfilled_partition_policy": "system"
+  },
+  "idmap2": "NOT_RUN: install/build Android 15 host idmap2; logical mapping/policy checked only",
+  "runtime_priority": "REQUIRES_DEVICE",
+  "fingerprint_enrollment": "UNTESTED",
+  "image_sha256": "d98ee7c7ef27fae92ee8c4c0b321613287c71b7b8c1dbfa5b01459c50b1d617e",
+  "original_sha256_verified": true,
+  "metadata_readback": "PASS",
+  "ext4_check": "PASS"
+}

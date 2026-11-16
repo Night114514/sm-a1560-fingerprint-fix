@@ -1,0 +1,8 @@
+work/
+dist/
+__pycache__/
+*.jks
+*.keystore
+*.img
+*.img.gz
+*.img.xz

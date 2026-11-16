@@ -1,0 +1,16 @@
+{
+  "apk_sha256": "4950eecf4aab9ab7ea8f9b46eac5ccb8f144974208af391aaa587e9e53efd9c9",
+  "package": "io.github.sma1560.fingerprintfix",
+  "compiled_array_length": 0,
+  "mapping": {
+    "array/config_biometric_sensors": "0x7f010000"
+  },
+  "signature_verified": true,
+  "zip_alignment_verified": true,
+  "framework": "NOT_PROVIDED",
+  "idmap2": "NOT_RUN: no actual framework-res.apk or host idmap2",
+  "runtime_priority": "REQUIRES_DEVICE",
+  "fingerprint_enrollment": "UNTESTED"
+}
+4950eecf4aab9ab7ea8f9b46eac5ccb8f144974208af391aaa587e9e53efd9c9  SmA1560FingerprintFix.apk
+Built and checked the RRO APK. Device fingerprint enrollment is UNTESTED.

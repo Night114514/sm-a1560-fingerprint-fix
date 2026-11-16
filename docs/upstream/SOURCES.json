@@ -1,0 +1,74 @@
+[
+  {
+    "file": "AuthService.java",
+    "url": "https://android.googlesource.com/platform/frameworks/base/+/android-15.0.0_r1/services/core/java/com/android/server/biometrics/AuthService.java",
+    "aosp_commit": "4e43ad12e1b211f15152e9c5b16b0fe88e6b93f3",
+    "sha256": "28d0b91df53d106517aef4c556f2423a113925ba330c93b7e6bd86ada5a62dd0"
+  },
+  {
+    "file": "FingerprintSensorConfigurations.java",
+    "url": "https://android.googlesource.com/platform/frameworks/base/+/android-15.0.0_r1/core/java/android/hardware/fingerprint/FingerprintSensorConfigurations.java",
+    "aosp_commit": "4e43ad12e1b211f15152e9c5b16b0fe88e6b93f3",
+    "sha256": "c851bbbf8004d112a299bcbb93ad1f6b7c9b5c46ddd9c64f070584e41776b7cf"
+  },
+  {
+    "file": "FingerprintService.java",
+    "url": "https://android.googlesource.com/platform/frameworks/base/+/android-15.0.0_r1/services/core/java/com/android/server/biometrics/sensors/fingerprint/FingerprintService.java",
+    "aosp_commit": "4e43ad12e1b211f15152e9c5b16b0fe88e6b93f3",
+    "sha256": "d89ebdeeb09a74c07d8e7de3cd705e4ecdf72f71aab4ce0d2f39d4c8bf6040da"
+  },
+  {
+    "file": "ResourceMapping.cpp",
+    "url": "https://android.googlesource.com/platform/frameworks/base/+/android-15.0.0_r1/cmds/idmap2/libidmap2/ResourceMapping.cpp",
+    "aosp_commit": "4e43ad12e1b211f15152e9c5b16b0fe88e6b93f3",
+    "sha256": "fa92295a7fd820818c1c343c10b2a22ed6ed3717981f3a96645e1f12c3b50d5b"
+  },
+  {
+    "file": "IdmapManager.java",
+    "url": "https://android.googlesource.com/platform/frameworks/base/+/android-15.0.0_r1/services/core/java/com/android/server/om/IdmapManager.java",
+    "aosp_commit": "4e43ad12e1b211f15152e9c5b16b0fe88e6b93f3",
+    "sha256": "aa27445624a1cc930621cccca67028addb2deb77660f9e635c6e0a76ac3b0a78"
+  },
+  {
+    "file": "OverlayConfig.java",
+    "url": "https://android.googlesource.com/platform/frameworks/base/+/android-15.0.0_r1/core/java/com/android/internal/content/om/OverlayConfig.java",
+    "aosp_commit": "4e43ad12e1b211f15152e9c5b16b0fe88e6b93f3",
+    "sha256": "56f06ebccf01e92ba1d5739cf158e276704fc9baea81e01af111e82a8307606c"
+  },
+  {
+    "file": "OverlayConfigParser.java",
+    "url": "https://android.googlesource.com/platform/frameworks/base/+/android-15.0.0_r1/core/java/com/android/internal/content/om/OverlayConfigParser.java",
+    "aosp_commit": "4e43ad12e1b211f15152e9c5b16b0fe88e6b93f3",
+    "sha256": "94021ed6fbfa8a037c0fe61a037fc16c57156bd0abcc98feb99b397666e949d2"
+  },
+  {
+    "file": "PackagePartitions.java",
+    "url": "https://android.googlesource.com/platform/frameworks/base/+/android-15.0.0_r1/core/java/android/content/pm/PackagePartitions.java",
+    "aosp_commit": "4e43ad12e1b211f15152e9c5b16b0fe88e6b93f3",
+    "sha256": "bdb98c020638cd68d043a7421a55fb5dec5537e0e0e0ae8410f4497b31415828"
+  },
+  {
+    "file": "OverlayManagerShellCommand.java",
+    "url": "https://android.googlesource.com/platform/frameworks/base/+/android-15.0.0_r1/services/core/java/com/android/server/om/OverlayManagerShellCommand.java",
+    "aosp_commit": "4e43ad12e1b211f15152e9c5b16b0fe88e6b93f3",
+    "sha256": "fba72737429cadbf720640252ea30284e3bf13d588764f663236732ba8b1eeec"
+  },
+  {
+    "file": "config.xml",
+    "url": "https://android.googlesource.com/platform/frameworks/base/+/android-15.0.0_r1/core/res/res/values/config.xml",
+    "aosp_commit": "4e43ad12e1b211f15152e9c5b16b0fe88e6b93f3",
+    "sha256": "e18a2015076c80b900c7b3b149fe21c453694b1b3d7a5d144edf3f4f297be353"
+  },
+  {
+    "file": "lineage-AuthService.java",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/906cba06036689b107a2fb6d7b6f54f41edc1fcd/services/core/java/com/android/server/biometrics/AuthService.java",
+    "lineage_commit": "906cba06036689b107a2fb6d7b6f54f41edc1fcd",
+    "sha256": "f5cedc09540af84faaa0d46917d30b9ea9f1f7b9645df63ac66b6ced6d88e3ca"
+  },
+  {
+    "file": "lineage-FingerprintService.java",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/906cba06036689b107a2fb6d7b6f54f41edc1fcd/services/core/java/com/android/server/biometrics/sensors/fingerprint/FingerprintService.java",
+    "lineage_commit": "906cba06036689b107a2fb6d7b6f54f41edc1fcd",
+    "sha256": "cc7ef4968502ee084ac41032a9ed5c83cf9acc685571546dffecb86d138347e0"
+  }
+]

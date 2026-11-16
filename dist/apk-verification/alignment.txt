@@ -1,0 +1,8 @@
+Verifying alignment of /workspace/work/sm-a1560-fingerprint-fix/work/build.QhuJqY/SmA1560FingerprintFix.apk (4)...
+      49 AndroidManifest.xml (OK - compressed)
+     696 res/xml/overlays.xml (OK - compressed)
+     912 resources.arsc (OK)
+    1702 META-INF/EXPERIME.SF (OK - compressed)
+    2053 META-INF/EXPERIME.RSA (OK - compressed)
+    3155 META-INF/MANIFEST.MF (OK - compressed)
+Verification succesful

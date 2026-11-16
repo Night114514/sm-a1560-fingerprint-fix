@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "project": "sm-a1560-fingerprint-fix",
+  "input_sha256": "93814673269bdcb1aee3a80f389fcf58a4c8eb92b136b7a3c19a60942fb5f0d5",
+  "output_sha256": "d98ee7c7ef27fae92ee8c4c0b321613287c71b7b8c1dbfa5b01459c50b1d617e",
+  "apk_sha256": "4950eecf4aab9ab7ea8f9b46eac5ccb8f144974208af391aaa587e9e53efd9c9",
+  "bytes": 67108864,
+  "partition": "system_ext",
+  "system_root_in_image": "",
+  "apk_path_in_image": "/system_ext/overlay/SmA1560FingerprintFix/SmA1560FingerprintFix.apk",
+  "metadata": {
+    "/system_ext/overlay": {
+      "label": "u:object_r:system_file:s0",
+      "directory": true
+    },
+    "/system_ext/overlay/SmA1560FingerprintFix": {
+      "label": "u:object_r:system_file:s0",
+      "directory": true
+    },
+    "/system_ext/overlay/SmA1560FingerprintFix/SmA1560FingerprintFix.apk": {
+      "label": "u:object_r:system_file:s0",
+      "directory": false
+    }
+  },
+  "config_path": null,
+  "config_sha256": null,
+  "idmap2": "NOT_RUN: install/build Android 15 host idmap2; logical mapping/policy checked only",
+  "preserved_paths_checked": 5,
+  "priority": "offline default partition/config order checked; device must confirm effective value",
+  "device_enrollment": "UNTESTED"
+}
+Image patched and checked OFFLINE. Fingerprint enrollment is UNTESTED.

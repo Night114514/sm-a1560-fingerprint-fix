@@ -1,0 +1,9 @@
+Binary APK
+Package name=io.github.sma1560.fingerprintfix id=7f
+  type array id=01 entryCount=1
+    resource 0x7f010000 array/config_biometric_sensors
+      () (array) size=0
+        []
+  type xml id=02 entryCount=1
+    resource 0x7f020000 xml/overlays
+      () (file) res/xml/overlays.xml type=XML
