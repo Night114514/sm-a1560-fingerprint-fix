@@ -1,0 +1,19 @@
+N: android=http://schemas.android.com/apk/res/android (line=2)
+  E: manifest (line=2)
+    A: http://schemas.android.com/apk/res/android:versionCode(0x0101021b)=1
+    A: http://schemas.android.com/apk/res/android:versionName(0x0101021c)="0.1-experiment" (Raw: "0.1-experiment")
+    A: http://schemas.android.com/apk/res/android:compileSdkVersion(0x01010572)=35
+    A: http://schemas.android.com/apk/res/android:compileSdkVersionCodename(0x01010573)="15" (Raw: "15")
+    A: package="io.github.sma1560.fingerprintfix" (Raw: "io.github.sma1560.fingerprintfix")
+    A: platformBuildVersionCode=35
+    A: platformBuildVersionName=15
+      E: uses-sdk (line=4)
+        A: http://schemas.android.com/apk/res/android:minSdkVersion(0x0101020c)=29
+        A: http://schemas.android.com/apk/res/android:targetSdkVersion(0x01010270)=35
+      E: overlay (line=5)
+        A: http://schemas.android.com/apk/res/android:priority(0x0101001c)=999
+        A: http://schemas.android.com/apk/res/android:targetPackage(0x01010021)="android" (Raw: "android")
+        A: http://schemas.android.com/apk/res/android:isStatic(0x0101055a)=true
+        A: http://schemas.android.com/apk/res/android:resourcesMap(0x01010609)=@0x7f020000
+      E: application (line=7)
+        A: http://schemas.android.com/apk/res/android:hasCode(0x0101000c)=false

@@ -2,7 +2,9 @@
 
 Samsung Galaxy A15 5G **SM-A1560** 的 Android 15 GSI 最小 RRO 修復實驗。目標環境為原廠 Android 15 / One UI 7 Vendor、已解鎖 Bootloader，以及 LineageOS 22.2 Android 15 GApps EXT4 GSI。
 
-**目前已編譯並檢查 RRO APK；尚未取得使用者原版 GSI，沒有產生可安裝的真實 GSI，也沒有真機指紋登記結果。不能據此聲稱指紋已修復。** 本專案只改一項 framework 資源，不提供 HAL、TEE、Samsung 私有介面或 generateChallenge 相容層。
+**第二階段已產出供實機測試的修正版 GSI，通過 EXT4、RRO/idmap2、SELinux、同公鑰 AVB/FEC 與 XZ 解壓雜湊檢查；尚無真機 DSU 啟動或指紋登記結果，不能聲稱指紋已修復。**
+
+[下載實驗版 GSI](https://github.com/Night114514/sm-a1560-fingerprint-fix/releases/tag/phase2-los22.2-20260105-rro1) · [第二階段測試報告](docs/phase2-report.md) · [Windows DSU 步驟](docs/windows-dsu-phase2.md) · [第二階段構建方式](docs/phase2-build.md) 本專案只改一項 framework 資源，不提供 HAL、TEE、Samsung 私有介面或 generateChallenge 相容層。
 
 ## 實驗依據
 
@@ -89,9 +91,9 @@ export ANDROID_SDK_ROOT="$PWD/work/android-sdk"
 
 ## 原版 GSI 的離線複本修補
 
-本次沒有使用者提供的原版 GSI，因此以下是可執行流程，**不是本次已生成映像的聲明**。
+以下保留第一階段通用 raw EXT4 流程。指定的 MisterZtr 原版已於第二階段取得並驗證；它含 AVB footer，須改依 [第二階段流程](docs/phase2-build.md) 的明確同 key 模式處理。實際成品與檢查見 [第二階段報告](docs/phase2-report.md)。
 
-輸入必須是未掛載、乾淨、長度符合 superblock 的 raw EXT4。腳本不處理 EROFS、super.img、Android sparse、壓縮檔、附帶 AVB footer／不明尾段、encrypted、shared_blocks 或 read-only feature 映像；也不自動長大、修復檔案系統、刪除 AVB 或重新簽署映像。
+輸入必須是未掛載、乾淨、長度符合 superblock 的 raw EXT4。預設模式不處理 EROFS、super.img、Android sparse、壓縮檔、附帶 AVB footer／不明尾段、encrypted、shared_blocks 或 read-only feature 映像；也不自動長大、修復檔案系統、刪除 AVB 或重新簽署映像。
 
 例如先保留下載檔，再準備獨立 raw 工作檔：
 
@@ -102,9 +104,9 @@ xz -dk -- original.img.xz                       # 保留壓縮原版
 # simg2img original-sparse.img original-raw.img
 ```
 
-若是 `shared_blocks`，在另外的工作複本上，使用支援的 e2fsprogs 評估 `e2fsck -f -E unshare_blocks 工作複本.img`，確認空間並手動處理提示，之後完整檢查；不要對原檔執行。AVB/DSU 相容問題在本任務中屬停止條件，不以修改 boot/vbmeta/vendor 解決。
+若是 `shared_blocks`，在另外的工作複本上，使用支援的 e2fsprogs 評估 `e2fsck -f -E unshare_blocks 工作複本.img`，確認空間並手動處理提示，之後完整檢查；不要對原檔執行。不支援的 AVB layout、無法匹配原公鑰或裝置拒絕 DSU 都屬停止條件；只有第二階段已驗證的同 key system-footer 重建是明確支援流程，不修改手機 boot/vbmeta/vendor 分區。
 
-正式修補預設要求 Android 15 **Linux host `idmap2`**。SDK Build Tools 不包含它，從手機取出的 ARM64 ELF 也不能直接在 x86_64 Linux 執行。若已有完整 AOSP Android 15 build checkout 和其必要依賴：
+正式修補預設要求可執行真正的 Android 15 `idmap2`，可用 **Linux host binary**，或依第二階段流程在 **QEMU 執行原版 GSI 的 ARM64 binary**。SDK Build Tools 不包含它，從手機取出的 ARM64 ELF 也不能直接在 x86_64 Linux 執行。若已有完整 AOSP Android 15 build checkout 和其必要依賴：
 
 ```bash
 # 在該 AOSP checkout 中執行，依其 build 文件先設定環境：
@@ -224,4 +226,4 @@ export AAPT2="$ANDROID_SDK_ROOT/build-tools/35.0.0/aapt2"
 python3 tests/integration.py
 ```
 
-測試在 `work/` 建立並刪除合成 EXT4，不輸出可供手機使用的 ROM。保存的測試結果和 SHA 只代表那些合成樣本。原版 GSI、Android runtime idmap、有效 overlay 優先級、Samsung AIDL challenge 與真機登記，仍須取得原版及裝置後驗證。
+測試在 `work/` 建立並刪除合成 EXT4，不輸出可供手機使用的 ROM。保存的測試結果和 SHA 只代表那些合成樣本。指定原版 GSI 與 Android 15 idmap2 已在第二階段核對；手機端 runtime idmap、有效 overlay 優先級、Samsung AIDL challenge 與真機登記仍須裝置驗證。

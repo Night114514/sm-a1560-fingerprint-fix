@@ -1,0 +1,7 @@
+Paths:
+    target path  : /workspace/work/gsi/output/system.img.report/patch-vqcnp4w5/extract-530
+    overlay path : /workspace/work/sm-a1560-fingerprint-fix/dist/SmA1560FingerprintFix.apk
+Mapping:
+    0x01070028 -> 0x7f010000 (array/config_biometric_sensors -> array/config_biometric_sensors)
+linker: Warning: failed to find generated linker configuration from "/linkerconfig/ld.config.txt"
+WARNING: linker: Warning: failed to find generated linker configuration from "/linkerconfig/ld.config.txt"

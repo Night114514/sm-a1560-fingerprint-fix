@@ -1,0 +1,4 @@
+E: overlay (line=2)
+    E: item (line=3)
+      A: target="array/config_biometric_sensors" (Raw: "array/config_biometric_sensors")
+      A: value=@0x7f010000

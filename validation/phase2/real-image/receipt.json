@@ -1,0 +1,106 @@
+{
+  "schema": 1,
+  "project": "sm-a1560-fingerprint-fix",
+  "input_sha256": "cd3599e056ba82bc19379fbca7e81ee572589e0dd81b75092c1fee1691a077b7",
+  "output_sha256": "6d2cb3f536d675dc85dd891a751c46f24d229bd1770f000a69ef23e46507b83f",
+  "apk_sha256": "4950eecf4aab9ab7ea8f9b46eac5ccb8f144974208af391aaa587e9e53efd9c9",
+  "bytes": 3340144640,
+  "partition": "system_ext",
+  "system_root_in_image": "/system",
+  "apk_path_in_image": "/system/system_ext/overlay/SmA1560FingerprintFix/SmA1560FingerprintFix.apk",
+  "metadata": {
+    "/system/system_ext/overlay": {
+      "label": "u:object_r:vendor_overlay_file:s0",
+      "directory": true
+    },
+    "/system/system_ext/overlay/SmA1560FingerprintFix": {
+      "label": "u:object_r:vendor_overlay_file:s0",
+      "directory": true
+    },
+    "/system/system_ext/overlay/SmA1560FingerprintFix/SmA1560FingerprintFix.apk": {
+      "label": "u:object_r:vendor_overlay_file:s0",
+      "directory": false
+    }
+  },
+  "config_path": null,
+  "config_sha256": null,
+  "idmap2": "PASS (overlayable enforced; one mapping)",
+  "preserved_paths_checked": 6,
+  "avb": {
+    "input": {
+      "algorithm": "SHA256_RSA2048",
+      "public_key_sha256": "22de3994532196f61c039e90260d78a93a4c57362c7e789be928036e80b77c8c",
+      "public_key_sha1": "cdbb77177f731920bbe0a0f94f84d9038ae0617d",
+      "image_bytes": 3340144640,
+      "data_bytes": 3287355392,
+      "partition_name": "system",
+      "hash_algorithm": "sha256",
+      "block_size": 4096,
+      "tree_offset": 3287355392,
+      "tree_size": 25890816,
+      "fec_num_roots": 2,
+      "fec_offset": 3313246208,
+      "fec_size": 26198016,
+      "salt": "8c9c0b5f06fe4a59f17471e23d1850c2ca97207baa1d2ab46d93865daf885321",
+      "root_digest": "af2d84b2cf86acfc717eecde4c6d0c5f6cf6d24540d1da005dfe6c603b0a3250",
+      "rollback_index": 1764547200,
+      "rollback_index_location": 0,
+      "flags": 0,
+      "release_string": "avbtool 1.3.0",
+      "properties": [
+        [
+          "com.android.build.system.os_version",
+          "15"
+        ],
+        [
+          "com.android.build.system.fingerprint",
+          "google/lineage_arm64_bgN4/tdgsi_arm64_ab:15/BP1A.250505.005/eng.andrew:userdebug/release-keys"
+        ],
+        [
+          "com.android.build.system.security_patch",
+          "2025-12-01"
+        ]
+      ]
+    },
+    "output": {
+      "algorithm": "SHA256_RSA2048",
+      "public_key_sha256": "22de3994532196f61c039e90260d78a93a4c57362c7e789be928036e80b77c8c",
+      "public_key_sha1": "cdbb77177f731920bbe0a0f94f84d9038ae0617d",
+      "image_bytes": 3340144640,
+      "data_bytes": 3287355392,
+      "partition_name": "system",
+      "hash_algorithm": "sha256",
+      "block_size": 4096,
+      "tree_offset": 3287355392,
+      "tree_size": 25890816,
+      "fec_num_roots": 2,
+      "fec_offset": 3313246208,
+      "fec_size": 26198016,
+      "salt": "8c9c0b5f06fe4a59f17471e23d1850c2ca97207baa1d2ab46d93865daf885321",
+      "root_digest": "83801435ae4b5e366b0e33fad86f708c4bc21d02dfc529126097a8cd48991cab",
+      "rollback_index": 1764547200,
+      "rollback_index_location": 0,
+      "flags": 0,
+      "release_string": "avbtool 1.3.0",
+      "properties": [
+        [
+          "com.android.build.system.os_version",
+          "15"
+        ],
+        [
+          "com.android.build.system.fingerprint",
+          "google/lineage_arm64_bgN4/tdgsi_arm64_ab:15/BP1A.250505.005/eng.andrew:userdebug/release-keys"
+        ],
+        [
+          "com.android.build.system.security_patch",
+          "2025-12-01"
+        ]
+      ]
+    },
+    "patched_ext4_sha256": "e0c0db5f65f2cbbf95cd0bdf80452debc1e24ac98f72545a9af11454c64ad3bb",
+    "signature_hashtree_fec": "PASS",
+    "device_vbmeta_partition": "UNTOUCHED"
+  },
+  "priority": "offline default partition/config order checked; device must confirm effective value",
+  "device_enrollment": "UNTESTED"
+}

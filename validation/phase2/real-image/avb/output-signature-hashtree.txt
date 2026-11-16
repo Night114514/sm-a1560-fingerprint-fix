@@ -1,0 +1,3 @@
+Verifying image /workspace/work/gsi/output/system.img.report/avb/verify-iwehr4f_/system.img using key at /workspace/work/sm-a1560-fingerprint-fix/work/avb-pinned/testkey_rsa2048.pem
+vbmeta: Successfully verified footer and SHA256_RSA2048 vbmeta struct in /workspace/work/gsi/output/system.img.report/avb/verify-iwehr4f_/system.img
+system: Successfully verified sha256 hashtree of /workspace/work/gsi/output/system.img.report/avb/verify-iwehr4f_/system.img for image of 3287355392 bytes

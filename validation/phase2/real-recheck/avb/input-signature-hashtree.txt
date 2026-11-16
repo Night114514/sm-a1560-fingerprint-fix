@@ -1,0 +1,3 @@
+Verifying image /workspace/work/gsi/output/system.img.recheck/avb/verify-5i36b2a6/system.img using embedded public key
+vbmeta: Successfully verified footer and SHA256_RSA2048 vbmeta struct in /workspace/work/gsi/output/system.img.recheck/avb/verify-5i36b2a6/system.img
+system: Successfully verified sha256 hashtree of /workspace/work/gsi/output/system.img.recheck/avb/verify-5i36b2a6/system.img for image of 3287355392 bytes

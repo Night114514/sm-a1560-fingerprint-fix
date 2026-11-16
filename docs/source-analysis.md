@@ -1,5 +1,7 @@
 # Android 15 原始碼核對與實驗邊界
 
+> 本文件保留第一階段的歷史紀錄；目前第二階段的真實 GSI 與 idmap2 檢查請見 [第二階段測試報告](phase2-report.md)。
+
 結論：**空陣列是正確且範圍有限的修復實驗，尚不是已證實的修復。** 它移除不存在的 HIDL 指紋 HAL 的配置來源，保留 AIDL 發現流程。Samsung AIDL 是否與這份 GSI 的 framework/TEE 相容，仍須真機完成登記才能確認。
 
 以下核對基於 AOSP `android-15.0.0_r1`，frameworks/base commit `4e43ad12e1b211f15152e9c5b16b0fe88e6b93f3`；以及查閱時的 LineageOS `lineage-22.2` commit `906cba06036689b107a2fb6d7b6f54f41edc1fcd`。`upstream/SOURCES.json` 列出所保存檔案的 URL 及 SHA-256。這些版本用於可重查的推導，不代表使用者 GSI 的確切來源 revision。

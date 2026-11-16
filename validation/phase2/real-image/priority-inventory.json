@@ -1,0 +1,3705 @@
+[
+  {
+    "path": "/system/product/overlay/ApertureFrameworksBaseOverlay.apk",
+    "package": "org.lineageos.aperture.frameworksbaseoverlay",
+    "priority": "0",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/CompanionDeviceManager__device__auto_generated_characteristics_rro.apk",
+    "package": "com.android.companiondevicemanager.auto_generated_characteristics_rro",
+    "priority": "0",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/DeviceDiagnostics__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "com.android.devicediagnostics.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/Dialer__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "com.android.dialer.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/DisplayCutoutEmulationCorner/DisplayCutoutEmulationCornerOverlay.apk",
+    "package": "com.android.internal.display.cutout.emulation.corner",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay.apk",
+    "package": "com.android.internal.display.cutout.emulation.double",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/DisplayCutoutEmulationHole/DisplayCutoutEmulationHoleOverlay.apk",
+    "package": "com.android.internal.display.cutout.emulation.hole",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/DisplayCutoutEmulationTall/DisplayCutoutEmulationTallOverlay.apk",
+    "package": "com.android.internal.display.cutout.emulation.tall",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/DisplayCutoutEmulationWaterfall/DisplayCutoutEmulationWaterfallOverlay.apk",
+    "package": "com.android.internal.display.cutout.emulation.waterfall",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/DisplayCutoutNoCutout/NoCutoutOverlay.apk",
+    "package": "com.android.internal.display.cutout.emulation.noCutout",
+    "priority": "0",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/DocumentsUIOverlay.apk",
+    "package": "com.android.documentsui.overlay",
+    "priority": "100",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/EmergencyInfo__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "com.android.emergency.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/FaceUnlockOverlay.apk",
+    "package": "co.aospa.sense.settings.overlay",
+    "priority": "600",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/FaceUnlock__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "co.aospa.sense.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/FontLato/FontLatoOverlay.apk",
+    "package": "org.lineageos.overlay.font.lato",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/FontNotoSerifSource/FontNotoSerifSourceOverlay.apk",
+    "package": "com.android.theme.font.notoserifsource",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/FontRubik/FontRubikOverlay.apk",
+    "package": "org.lineageos.overlay.font.rubik",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/GlimpseFrameworksBaseOverlay.apk",
+    "package": "org.lineageos.glimpse.frameworksbaseoverlay",
+    "priority": "0",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/GmsOverlay.apk",
+    "package": "com.mtg.gmsoverlay",
+    "priority": "1337",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/GmsSettingsOverlay.apk",
+    "package": "com.mtg.gmssettingsoverlay",
+    "priority": "1337",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/GmsSettingsProviderOverlay.apk",
+    "package": "com.mtg.gmssettingsprovideroverlay",
+    "priority": "1337",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/GmsSetupWizardOverlay.apk",
+    "package": "com.mtg.gmssetupwizardoverlay",
+    "priority": "1337",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackCircularAndroid/IconPackCircularAndroidOverlay.apk",
+    "package": "com.android.theme.icon_pack.circular.android",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackCircularLauncher/IconPackCircularLauncherOverlay.apk",
+    "package": "com.android.theme.icon_pack.circular.launcher",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackCircularSettings/IconPackCircularSettingsOverlay.apk",
+    "package": "com.android.theme.icon_pack.circular.settings",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackCircularSystemUI/IconPackCircularSystemUIOverlay.apk",
+    "package": "com.android.theme.icon_pack.circular.systemui",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackFilledAndroid/IconPackFilledAndroidOverlay.apk",
+    "package": "com.android.theme.icon_pack.filled.android",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackFilledLauncher/IconPackFilledLauncherOverlay.apk",
+    "package": "com.android.theme.icon_pack.filled.launcher",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackFilledSettings/IconPackFilledSettingsOverlay.apk",
+    "package": "com.android.theme.icon_pack.filled.settings",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackFilledSystemUI/IconPackFilledSystemUIOverlay.apk",
+    "package": "com.android.theme.icon_pack.filled.systemui",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackKaiAndroid/IconPackKaiAndroidOverlay.apk",
+    "package": "com.android.theme.icon_pack.kai.android",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackKaiLauncher/IconPackKaiLauncherOverlay.apk",
+    "package": "com.android.theme.icon_pack.kai.launcher",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackKaiSettings/IconPackKaiSettingsOverlay.apk",
+    "package": "com.android.theme.icon_pack.kai.settings",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackKaiSystemUI/IconPackKaiSystemUIOverlay.apk",
+    "package": "com.android.theme.icon_pack.kai.systemui",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackRoundedAndroid/IconPackRoundedAndroidOverlay.apk",
+    "package": "com.android.theme.icon_pack.rounded.android",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackRoundedLauncher/IconPackRoundedLauncherOverlay.apk",
+    "package": "com.android.theme.icon_pack.rounded.launcher",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackRoundedSettings/IconPackRoundedSettingsOverlay.apk",
+    "package": "com.android.theme.icon_pack.rounded.settings",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackRoundedSystemUI/IconPackRoundedSystemUIOverlay.apk",
+    "package": "com.android.theme.icon_pack.rounded.systemui",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackSamAndroid/IconPackSamAndroidOverlay.apk",
+    "package": "com.android.theme.icon_pack.sam.android",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackSamLauncher/IconPackSamLauncherOverlay.apk",
+    "package": "com.android.theme.icon_pack.sam.launcher",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackSamSettings/IconPackSamSettingsOverlay.apk",
+    "package": "com.android.theme.icon_pack.sam.settings",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackSamSystemUI/IconPackSamSystemUIOverlay.apk",
+    "package": "com.android.theme.icon_pack.sam.systemui",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackVictorAndroid/IconPackVictorAndroidOverlay.apk",
+    "package": "com.android.theme.icon_pack.victor.android",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackVictorLauncher/IconPackVictorLauncherOverlay.apk",
+    "package": "com.android.theme.icon_pack.victor.launcher",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackVictorSettings/IconPackVictorSettingsOverlay.apk",
+    "package": "com.android.theme.icon_pack.victor.settings",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconPackVictorSystemUI/IconPackVictorSystemUIOverlay.apk",
+    "package": "com.android.theme.icon_pack.victor.systemui",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconShapePebble/IconShapePebbleOverlay.apk",
+    "package": "com.android.theme.icon.pebble",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconShapeRoundedRect/IconShapeRoundedRectOverlay.apk",
+    "package": "com.android.theme.icon.roundedrect",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconShapeSquare/IconShapeSquareOverlay.apk",
+    "package": "com.android.theme.icon.square",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconShapeSquircle/IconShapeSquircleOverlay.apk",
+    "package": "com.android.theme.icon.squircle",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconShapeTaperedRect/IconShapeTaperedRectOverlay.apk",
+    "package": "com.android.theme.icon.taperedrect",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconShapeTeardrop/IconShapeTeardropOverlay.apk",
+    "package": "com.android.theme.icon.teardrop",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IconShapeVessel/IconShapeVesselOverlay.apk",
+    "package": "com.android.theme.icon.vessel",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/ImsServiceEntitlement__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "com.android.imsserviceentitlement.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/IntentResolver__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "com.android.intentresolver.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/LatinIME__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "com.android.inputmethod.latin.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/LineageBlackTheme/LineageBlackTheme.apk",
+    "package": "org.lineageos.overlay.customization.blacktheme",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/LineageParts__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "org.lineageos.lineageparts.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/LineageSettingsProvider__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "org.lineageos.lineagesettings.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/LineageSetupWizard__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "org.lineageos.setupwizard.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/ManagedProvisioning__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "com.android.managedprovisioning.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/NavigationBarMode2Button/NavigationBarMode2ButtonOverlay.apk",
+    "package": "com.android.internal.systemui.navbar.twobutton",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk",
+    "package": "com.android.internal.systemui.navbar.threebutton",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk",
+    "package": "com.android.internal.systemui.navbar.gestural",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/NetworkStackOverlay.apk",
+    "package": "com.android.networkstack.overlay",
+    "priority": "100",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/NotesRoleEnabled/NotesRoleEnabledOverlay.apk",
+    "package": "com.android.role.notes.enabled",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/PermissionControllerOverlay.apk",
+    "package": "com.android.permissioncontroller.overlay",
+    "priority": "100",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/SettingsProvider__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "com.android.providers.settings.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/Settings__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "com.android.settings.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/SimpleDeviceConfig__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "org.protonaosp.deviceconfig.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/StorageManager__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "com.android.storagemanager.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/SystemUI__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "com.android.systemui.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/TeleService__device__auto_generated_characteristics_rro.apk",
+    "package": "com.android.phone.auto_generated_characteristics_rro",
+    "priority": "0",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/TeleService__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "com.android.phone.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/TelephonyProvider__device__auto_generated_characteristics_rro.apk",
+    "package": "com.android.providers.telephony.auto_generated_characteristics_rro",
+    "priority": "0",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/TransparentNavigationBar/TransparentNavigationBarOverlay.apk",
+    "package": "com.android.internal.systemui.navbar.transparent",
+    "priority": "1",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/TrebuchetOverlay.apk",
+    "package": "com.android.launcher3.overlay",
+    "priority": "100",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/TrebuchetQuickStep__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "com.android.launcher3.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/framework-res__device__auto_generated_characteristics_rro.apk",
+    "package": "android.auto_generated_characteristics_rro",
+    "priority": "0",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/framework-res__lineage_arm64_bgN4__auto_generated_rro_product.apk",
+    "package": "android.auto_generated_rro_product__",
+    "priority": "1",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-Hisense-HLTE556N.apk",
+    "package": "me.phh.treble.overlay.Hisense.HLTE556N",
+    "priority": "803",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-NavBar.apk",
+    "package": "me.phh.treble.overlay.navbar",
+    "priority": "3",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-NightMode.apk",
+    "package": "me.phh.treble.overlay.nightmode",
+    "priority": "3",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-SystemUI-FalseLocks.apk",
+    "package": "me.phh.treble.overlay.systemui.falselocks",
+    "priority": "3",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-Telephony-LTE.apk",
+    "package": "me.phh.treble.overlay.telephony.lte",
+    "priority": "3",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-alldocube-xneo.apk",
+    "package": "me.phh.treble.overlay.alldocube.xneo",
+    "priority": "614",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-asus-rogphone.apk",
+    "package": "me.phh.treble.overlay.asus.rogphone",
+    "priority": "625",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-asus-zenfone5-10.apk",
+    "package": "me.phh.treble.overlay.asus.zenfone5.ten",
+    "priority": "162",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-asus-zenfone5.apk",
+    "package": "me.phh.treble.overlay.asus.zenfone5",
+    "priority": "14",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-asus-zenfone5z.apk",
+    "package": "me.phh.treble.overlay.asus.zenfone5z",
+    "priority": "25",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-asus-zenfone8.apk",
+    "package": "me.phh.treble.overlay.asus.zenfone8",
+    "priority": "453",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-asus-zenfonelivel1za550kl.apk",
+    "package": "me.phh.treble.overlay.asus.zenfonelivel1",
+    "priority": "81",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-asus-zenfonemaxm2.apk",
+    "package": "me.phh.treble.overlay.asus.zenfonemaxm2",
+    "priority": "100",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-asus-zenfonemaxshot.apk",
+    "package": "me.phh.treble.overlay.asus.zenfonemaxshot",
+    "priority": "149",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-blackview-bv6900.apk",
+    "package": "me.phh.treble.overlay.blackview.bv6900",
+    "priority": "152",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-blackview-bv9500plus.apk",
+    "package": "me.phh.treble.overlay.blackview.bv9500plus",
+    "priority": "151",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-blackview-shark8-systemui.apk",
+    "package": "me.phh.treble.overlay.blackview.shark8.systemui",
+    "priority": "683",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-blackview-shark8.apk",
+    "package": "me.phh.treble.overlay.blackview.shark8",
+    "priority": "356",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-bq-jeice.apk",
+    "package": "me.phh.treble.overlay.bq.jeice",
+    "priority": "76",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-caf-ims.apk",
+    "package": "me.phh.treble.overlay.cafims",
+    "priority": "39",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-devinputjack.apk",
+    "package": "me.phh.treble.overlay.devinputjack",
+    "priority": "6",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-doogee-vmax.apk",
+    "package": "me.phh.treble.overlay.doogee.vmax",
+    "priority": "479",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-duoqin-qin2pro.apk",
+    "package": "me.phh.treble.overlay.duoqin.qin2pro",
+    "priority": "143",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-duoqin-qin3ultra-systemui.apk",
+    "package": "me.phh.treble.overlay.duoqin.qin3ultra.systemui",
+    "priority": "1050",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-duoqin-qin3ultra.apk",
+    "package": "me.phh.treble.overlay.duoqin.qin3ultra",
+    "priority": "1050",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-duoqin-qinf21pro.apk",
+    "package": "me.phh.treble.overlay.duoqin.qinf21pro",
+    "priority": "242",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-essential-ph_1.apk",
+    "package": "me.phh.treble.overlay.essential.ph_1",
+    "priority": "131",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-fairphone-fp3.apk",
+    "package": "me.phh.treble.overlay.fairphone.fp3",
+    "priority": "173",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-highpriomisc.apk",
+    "package": "me.phh.treble.overlay.highpriomisc",
+    "priority": "8998",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-htc-exodus1.apk",
+    "package": "me.phh.treble.overlay.htc.exodus1",
+    "priority": "85",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-htc-u12plus.apk",
+    "package": "me.phh.treble.overlay.htc.u12plus",
+    "priority": "97",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-ANE.apk",
+    "package": "com.dil3mm4.huawei.ANE",
+    "priority": "37",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-ARE.apk",
+    "package": "me.phh.treble.overlay.huawei.ARE",
+    "priority": "144",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-ATU.apk",
+    "package": "io.tenseventyseven.treble.huawei.ATU",
+    "priority": "60",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-AUM.apk",
+    "package": "io.tenseventyseven.treble.huawei.AUM",
+    "priority": "132",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-BKL.apk",
+    "package": "me.phh.treble.overlay.huawei.BKL",
+    "priority": "42",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-BND.apk",
+    "package": "com.dil3mm4.huawei.BND",
+    "priority": "35",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-CLT.apk",
+    "package": "me.phh.treble.overlay.huawei.CLT",
+    "priority": "41",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-COL.apk",
+    "package": "me.phh.treble.overlay.huawei.COL",
+    "priority": "191",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-COR.apk",
+    "package": "me.phh.treble.overlay.huawei.COR",
+    "priority": "126",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-DUK.apk",
+    "package": "com.dil3mm4.huawei.DUK",
+    "priority": "29",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-EML.apk",
+    "package": "me.phh.treble.overlay.huawei.EML",
+    "priority": "40",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-FIG.apk",
+    "package": "com.dil3mm4.huawei.FIG",
+    "priority": "67",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-JKM.apk",
+    "package": "me.phh.treble.overlay.huawei.JKM",
+    "priority": "916",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-LLD.apk",
+    "package": "com.dil3mm4.huawei.LLD",
+    "priority": "32",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-MAR.apk",
+    "package": "com.iceows.huawei.MAR",
+    "priority": "982",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-PIC.apk",
+    "package": "me.phh.treble.overlay.huawei.PIC",
+    "priority": "150",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-POT.apk",
+    "package": "com.iceows.huawei.POT",
+    "priority": "915",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-PRA.apk",
+    "package": "com.dil3mm4.huawei.PRA",
+    "priority": "33",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-RNE.apk",
+    "package": "com.dil3mm4.huawei.RNE",
+    "priority": "36",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-SHT.apk",
+    "package": "com.dil3mm4.huawei.SHT",
+    "priority": "66",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-STF.apk",
+    "package": "com.dil3mm4.huawei.STF",
+    "priority": "28",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-VTR.apk",
+    "package": "com.dil3mm4.huawei.VTR",
+    "priority": "38",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei-WAS.apk",
+    "package": "com.dil3mm4.huawei.WAS",
+    "priority": "34",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-huawei.apk",
+    "package": "me.phh.treble.overlay.huawei",
+    "priority": "31",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-hw-ims.apk",
+    "package": "me.phh.treble.overlay.hwims",
+    "priority": "77",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-infinix-hot60proplus-systemui.apk",
+    "package": "me.phh.treble.overlay.infinix.hot60proplus.systemui",
+    "priority": "6886",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-infinix-hot60proplus.apk",
+    "package": "me.phh.treble.overlay.infinix.hot60proplus",
+    "priority": "6886",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-infinix-note10.apk",
+    "package": "me.phh.treble.overlay.infinix.note10",
+    "priority": "932",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-infinix-note10pro.apk",
+    "package": "me.phh.treble.overlay.infinix.note10pro",
+    "priority": "547",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-infinix-note12v2023-systemui.apk",
+    "package": "me.phh.treble.overlay.infinix.note12v2023.systemui",
+    "priority": "954",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-infinix-note12v2023.apk",
+    "package": "me.phh.treble.overlay.infinix.note12v2023",
+    "priority": "771",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-infinix-note30-systemui.apk",
+    "package": "me.phh.treble.overlay.infinix.note30.systemui",
+    "priority": "984",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-infinix-note30.apk",
+    "package": "me.phh.treble.overlay.infinix.note30",
+    "priority": "304",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-infinix-note30pro-systemui.apk",
+    "package": "me.phh.treble.overlay.infinix.note30pro.systemui",
+    "priority": "983",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-infinix-note30pro.apk",
+    "package": "me.phh.treble.overlay.infinix.note30pro",
+    "priority": "346",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-infinix-note40pro.apk",
+    "package": "me.phh.treble.overlay.infinix.note40pro",
+    "priority": "920",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-infinix-note5.apk",
+    "package": "me.phh.treble.overlay.infinix.note5",
+    "priority": "110",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-infinix-note7.apk",
+    "package": "me.phh.treble.overlay.infinix.note7",
+    "priority": "115",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-infinix-note8.apk",
+    "package": "me.phh.treble.overlay.infinix.note8",
+    "priority": "116",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-infinix-s4.apk",
+    "package": "me.phh.treble.overlay.infinix.s4",
+    "priority": "24",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-infinix-zero6.apk",
+    "package": "me.phh.treble.overlay.infinix.zero6",
+    "priority": "99",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-infinix-zeroxpro.apk",
+    "package": "me.phh.treble.overlay.infinix.zeroxpro",
+    "priority": "447",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lenovo-Q706F.apk",
+    "package": "me.phh.treble.overlay.lenovo.Q706F",
+    "priority": "676",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lenovo-Y70.apk",
+    "package": "me.phh.treble.overlay.Lenovo.Y70",
+    "priority": "119",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lenovo-k5pro.apk",
+    "package": "me.phh.treble.overlay.lenovo.k5pro",
+    "priority": "70",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lenovo-p11_pro_plus.apk",
+    "package": "me.phh.treble.overlay.lenovo.p11_pro_plus",
+    "priority": "767",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lenovo-s5.apk",
+    "package": "me.phh.treble.overlay.lenovo.s5",
+    "priority": "84",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lenovo-s5pro.apk",
+    "package": "me.phh.treble.overlay.lenovo.s5pro",
+    "priority": "130",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lenovo-tabv7-systemui.apk",
+    "package": "me.phh.treble.overlay.lenovo.tabv7.systemui",
+    "priority": "6505",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lenovo-tabv7.apk",
+    "package": "me.phh.treble.overlay.lenovo.tabv7",
+    "priority": "6505",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lenovo-y700_2023-systemui.apk",
+    "package": "me.phh.treble.overlay.lenovo.y700_2023.systemui",
+    "priority": "320",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lenovo-y700_2023.apk",
+    "package": "me.phh.treble.overlay.lenovo.y700_2023",
+    "priority": "320",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lenovo-z5.apk",
+    "package": "me.phh.treble.overlay.lenovo.z5",
+    "priority": "47",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lg-g7.apk",
+    "package": "me.phh.treble.overlay.lg.g7",
+    "priority": "15",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lg-phoenix_lao_com-phoenix_sprout.apk",
+    "package": "me.phh.treble.overlay.lg.phoenix_lao_com.phoenix_sprout",
+    "priority": "452",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lg-v40.apk",
+    "package": "me.phh.treble.overlay.lg.v40",
+    "priority": "54",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lg-velvet.apk",
+    "package": "me.phh.treble.overlay.lg.velvet",
+    "priority": "156",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lge-lm_v500n.apk",
+    "package": "me.phh.treble.overlay.lge.lm_v500n",
+    "priority": "196",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lge-mfh505glm-systemui.apk",
+    "package": "me.phh.treble.overlay.lge.mfh505glm.systemui",
+    "priority": "505",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lge-mfh505glm.apk",
+    "package": "me.phh.treble.overlay.lge.mfh505glm",
+    "priority": "505",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-lge-timelm.apk",
+    "package": "me.phh.treble.overlay.lge.timelm",
+    "priority": "247",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-mbi-s10-systemui.apk",
+    "package": "me.phh.treble.overlay.mbi.s10.systemui",
+    "priority": "510",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-mbi-s10.apk",
+    "package": "me.phh.treble.overlay.mbi.s10",
+    "priority": "510",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-meizu-m2181-systemui.apk",
+    "package": "me.phh.treble.overlay.meizu.m2181.systemui",
+    "priority": "2181",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-meizu-m2181.apk",
+    "package": "me.phh.treble.overlay.meizu.m2181",
+    "priority": "2181",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-meizu-m2461-systemui.apk",
+    "package": "me.phh.treble.overlay.meizu.m2461.systemui",
+    "priority": "2461",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-meizu-m2461.apk",
+    "package": "me.phh.treble.overlay.meizu.m2461",
+    "priority": "2461",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-misc-aod-systemui.apk",
+    "package": "me.phh.treble.overlay.misc.aod_systemui",
+    "priority": "8003",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-misc-aod.apk",
+    "package": "me.phh.treble.overlay.misc.aod",
+    "priority": "8003",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-misc-dt2w.apk",
+    "package": "me.phh.treble.overlay.misc.dt2w",
+    "priority": "166",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-misc-minimal-brightness.apk",
+    "package": "me.phh.treble.overlay.misc.minimal_brightness",
+    "priority": "8002",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-misc-spen-pointer.apk",
+    "package": "me.phh.treble.overlay.misc.spen_pointer",
+    "priority": "8004",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-misc-transparent-pointer.apk",
+    "package": "me.phh.treble.overlay.misc.spen_pointer",
+    "priority": "8005",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-e5.apk",
+    "package": "me.phh.treble.overlay.moto.e5",
+    "priority": "127",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-e5plus.apk",
+    "package": "me.phh.treble.overlay.moto.e5plus",
+    "priority": "88",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-e6plus.apk",
+    "package": "me.phh.treble.overlay.moto.e6plus",
+    "priority": "498",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-g31.apk",
+    "package": "me.phh.treble.overlay.moto.g31",
+    "priority": "175",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-g6.apk",
+    "package": "me.phh.treble.overlay.moto.g6",
+    "priority": "43",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-g6play.apk",
+    "package": "me.phh.treble.overlay.moto.g6play",
+    "priority": "78",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-g6plus.apk",
+    "package": "me.phh.treble.overlay.moto.g6plus",
+    "priority": "21",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-g7play.apk",
+    "package": "me.phh.treble.overlay.moto.g7play",
+    "priority": "72",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-g7power.apk",
+    "package": "me.phh.treble.overlay.moto.g7power",
+    "priority": "62",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-g8.apk",
+    "package": "me.phh.treble.overlay.moto.g8",
+    "priority": "161",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-g8plus.apk",
+    "package": "me.phh.treble.overlay.moto.g8plus",
+    "priority": "154",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-g8power.apk",
+    "package": "me.phh.treble.overlay.moto.g8power",
+    "priority": "109",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-gpure.apk",
+    "package": "me.phh.treble.overlay.moto.gpure",
+    "priority": "236",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-hiphi-systemui.apk",
+    "package": "me.phh.treble.overlay.moto.hiphi.systemui",
+    "priority": "222",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-hiphi.apk",
+    "package": "me.phh.treble.overlay.moto.hiphi",
+    "priority": "222",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-nio.apk",
+    "package": "me.phh.treble.overlay.moto.nio",
+    "priority": "390",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-one-action.apk",
+    "package": "me.phh.treble.overlay.moto.one.action",
+    "priority": "536",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-one.apk",
+    "package": "me.phh.treble.overlay.moto.one",
+    "priority": "63",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-onefusion-systemui.apk",
+    "package": "me.phh.treble.overlay.moto.onefusion.systemui",
+    "priority": "509",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-onefusion.apk",
+    "package": "me.phh.treble.overlay.moto.onefusion",
+    "priority": "509",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-onefusionplus.apk",
+    "package": "me.phh.treble.overlay.moto.onefusionplus",
+    "priority": "362",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-onehyper.apk",
+    "package": "me.phh.treble.overlay.moto.onehyper",
+    "priority": "107",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-razr.apk",
+    "package": "me.phh.treble.overlay.moto.razr",
+    "priority": "213",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-rhodep-systemui.apk",
+    "package": "me.phh.treble.overlay.moto.rhodep.systemui",
+    "priority": "225",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-rhodep.apk",
+    "package": "me.phh.treble.overlay.moto.rhodep",
+    "priority": "225",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-tesla-systemui.apk",
+    "package": "me.phh.treble.overlay.moto.tesla.systemui",
+    "priority": "220",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-tesla.apk",
+    "package": "me.phh.treble.overlay.moto.tesla",
+    "priority": "220",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-tundra-systemui.apk",
+    "package": "me.phh.treble.overlay.moto.tundra.systemui",
+    "priority": "224",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-moto-tundra.apk",
+    "package": "me.phh.treble.overlay.moto.tundra",
+    "priority": "224",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-mtk-ims.apk",
+    "package": "me.phh.treble.overlay.mtkims",
+    "priority": "79",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-nokia-b2n-7plus.apk",
+    "package": "me.phh.treble.overlay.nokia.b2n_7plus",
+    "priority": "95",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-nokia-ctl-7-1.apk",
+    "package": "me.phh.treble.overlay.nokia.ctl_7_1",
+    "priority": "87",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-nokia-drg-6.1plus-x6.apk",
+    "package": "me.phh.treble.overlay.nokia.drg_6_1plus_x6",
+    "priority": "49",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-nokia-nokia_3_2.apk",
+    "package": "me.phh.treble.overlay.nokia.nokia_3_2",
+    "priority": "704",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-nokia-nokia_4_2.apk",
+    "package": "me.phh.treble.overlay.nokia.nokia_4_2",
+    "priority": "96",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-nokia-nokia_7_2-systemui.apk",
+    "package": "me.phh.treble.overlay.nokia.nokia_7_2.systemui",
+    "priority": "183",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-nokia-nokia_7_2.apk",
+    "package": "me.phh.treble.overlay.nokia.nokia_7_2",
+    "priority": "183",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-nokia-pda_sprout-5.1plus-x5.apk",
+    "package": "me.phh.treble.overlay.nokia.pda_sprout_5_1plus_x5",
+    "priority": "181",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-nokia-pl2-6.1.apk",
+    "package": "me.phh.treble.overlay.nokia.pl2_6_1",
+    "priority": "128",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-nokia-pnx-8.1-x7-systemui.apk",
+    "package": "me.phh.treble.overlay.nokia.pnx_8_1_x7.systemui",
+    "priority": "164",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-nokia-pnx-8.1-x7.apk",
+    "package": "me.phh.treble.overlay.nokia.pnx_8_1_x7",
+    "priority": "20",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-nubia-redmagic3s.apk",
+    "package": "me.phh.treble.overlay.nubia.redmagic3s",
+    "priority": "849",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-nubia-redmagic6series.apk",
+    "package": "me.phh.treble.overlay.nubia.redmagic6series",
+    "priority": "280",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-nubia-z18mini.apk",
+    "package": "me.phh.treble.overlay.nubia.z18mini",
+    "priority": "106",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-ace2-systemui.apk",
+    "package": "me.phh.treble.overlay.oneplus.ace2.systemui",
+    "priority": "2280",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-ace2.apk",
+    "package": "me.phh.treble.overlay.oneplus.ace2",
+    "priority": "2280",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-ace2v-systemui.apk",
+    "package": "me.phh.treble.overlay.oneplus.ace2v.systemui",
+    "priority": "2282",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-ace2v.apk",
+    "package": "me.phh.treble.overlay.oneplus.ace2v",
+    "priority": "2282",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-ace3-systemui.apk",
+    "package": "me.phh.treble.overlay.oneplus.ace3.systemui",
+    "priority": "2380",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-ace3.apk",
+    "package": "me.phh.treble.overlay.oneplus.ace3",
+    "priority": "2380",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-ace3v-systemui.apk",
+    "package": "me.phh.treble.overlay.oneplus.ace3v.systemui",
+    "priority": "2383",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-ace3v.apk",
+    "package": "me.phh.treble.overlay.oneplus.ace3v",
+    "priority": "2383",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-acepro-systemui.apk",
+    "package": "me.phh.treble.overlay.oneplus.acepro.systemui",
+    "priority": "2184",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-acepro.apk",
+    "package": "me.phh.treble.overlay.oneplus.acepro",
+    "priority": "2184",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-n10-systemui.apk",
+    "package": "me.phh.treble.overlay.oneplus.n10.systemui",
+    "priority": "1800",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-n10.apk",
+    "package": "me.phh.treble.overlay.oneplus.n10.systemui",
+    "priority": "1800",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-n2-systemui.apk",
+    "package": "me.phh.treble.overlay.oneplus.n2.systemui",
+    "priority": "2083",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-n2.apk",
+    "package": "me.phh.treble.overlay.oneplus.n2",
+    "priority": "2083",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-n20-systemui.apk",
+    "package": "me.phh.treble.overlay.oneplus.n20.systemui",
+    "priority": "2082",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-n20.apk",
+    "package": "me.phh.treble.overlay.oneplus.n20",
+    "priority": "2082",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-n200-systemui.apk",
+    "package": "me.phh.treble.overlay.oneplus.n200.systemui",
+    "priority": "2081",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-n200.apk",
+    "package": "me.phh.treble.overlay.oneplus.n200",
+    "priority": "2081",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-nord-systemui.apk",
+    "package": "me.phh.treble.overlay.oneplus.nord.systemui",
+    "priority": "2080",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-nord.apk",
+    "package": "me.phh.treble.overlay.oneplus.nord",
+    "priority": "2080",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-nord4-systemui.apk",
+    "package": "me.phh.treble.overlay.oneplus.nord4.systemui",
+    "priority": "2421",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-nord4.apk",
+    "package": "me.phh.treble.overlay.oneplus.nord4",
+    "priority": "2421",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-nord5-systemui.apk",
+    "package": "me.phh.treble.overlay.oneplus.nord5.systemui",
+    "priority": "2488",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-nord5.apk",
+    "package": "me.phh.treble.overlay.oneplus.nord5",
+    "priority": "2488",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-nordce-systemui.apk",
+    "package": "me.phh.treble.overlay.oneplus.nordce.systemui",
+    "priority": "2091",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-nordce.apk",
+    "package": "me.phh.treble.overlay.oneplus.nordce",
+    "priority": "2091",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-op10pro-systemui.apk",
+    "package": "me.phh.treble.overlay.oneplus.op10pro.systemui",
+    "priority": "2084",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-op10pro.apk",
+    "package": "me.phh.treble.overlay.oneplus.op10pro",
+    "priority": "2084",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-op12-systemui.apk",
+    "package": "me.phh.treble.overlay.oneplus.op12.systemui",
+    "priority": "2283",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-op12.apk",
+    "package": "me.phh.treble.overlay.oneplus.op12",
+    "priority": "2283",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-op6.apk",
+    "package": "me.phh.treble.overlay.oneplus.op6",
+    "priority": "11",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-op6t-systemui.apk",
+    "package": "me.phh.treble.overlay.oneplus.op6t.systemui",
+    "priority": "60",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-op6t.apk",
+    "package": "me.phh.treble.overlay.oneplus.op6t",
+    "priority": "74",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-op8-systemui.apk",
+    "package": "me.phh.treble.overlay.oneplus.op8.systemui",
+    "priority": "1982",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-op8.apk",
+    "package": "me.phh.treble.overlay.oneplus.op8",
+    "priority": "1982",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-op9-systemui.apk",
+    "package": "me.phh.treble.overlay.oneplus.op9.systemui",
+    "priority": "1983",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oneplus-op9.apk",
+    "package": "me.phh.treble.overlay.oneplus.op9",
+    "priority": "1983",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-onn-mid7019.apk",
+    "package": "me.phh.treble.overlay.onn.mid7019",
+    "priority": "472",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oppo-a54-systemui.apk",
+    "package": "me.phh.treble.overlay.oppo.a54.systemui",
+    "priority": "2036",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oppo-a54.apk",
+    "package": "me.phh.treble.overlay.oppo.a54",
+    "priority": "2036",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oppo-findx-systemui.apk",
+    "package": "me.phh.treble.overlay.oppo.findx.systemui",
+    "priority": "1710",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oppo-findx.apk",
+    "package": "me.phh.treble.overlay.oppo.findx",
+    "priority": "1710",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oppo-findx3pro-systemui.apk",
+    "package": "me.phh.treble.overlay.oppo.findx3pro.systemui",
+    "priority": "2003",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oppo-findx3pro.apk",
+    "package": "me.phh.treble.overlay.oppo.findx3pro",
+    "priority": "2003",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oppo-reno6-5g-systemui.apk",
+    "package": "me.phh.treble.overlay.oppo.reno6_5g.systemui",
+    "priority": "2018",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oppo-reno6-5g.apk",
+    "package": "me.phh.treble.overlay.oppo.reno6_5g",
+    "priority": "2018",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oppo-renopro2019-systemui.apk",
+    "package": "me.phh.treble.overlay.oppo.renopro2019.systemui",
+    "priority": "1910",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oppo-renopro2019.apk",
+    "package": "me.phh.treble.overlay.oppo.renopro2019",
+    "priority": "1910",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oukitel-c18pro.apk",
+    "package": "me.phh.treble.overlay.oukitel.c18pro",
+    "priority": "103",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-oukitel-wp8pro.apk",
+    "package": "me.phh.treble.overlay.oukitel.wp8pro",
+    "priority": "238",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-razer-cheryl.apk",
+    "package": "me.phh.treble.overlay.razer.cheryl",
+    "priority": "91",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-10pro-systemui.apk",
+    "package": "me.phh.treble.overlay.realme.r10pro.systemui",
+    "priority": "2260",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-10pro.apk",
+    "package": "me.phh.treble.overlay.realme.r10pro",
+    "priority": "2260",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-14proplus-systemui.apk",
+    "package": "me.phh.treble.overlay.realme.r14proplus.systemui",
+    "priority": "2469",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-wifi.apk",
+    "package": "me.phh.treble.overlay.wifi",
+    "priority": "0",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-14proplus.apk",
+    "package": "me.phh.treble.overlay.realme.r14proplus",
+    "priority": "2469",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-6.apk",
+    "package": "me.phh.treble.overlay.realme.r6",
+    "priority": "406",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-6i.apk",
+    "package": "me.phh.treble.overlay.realme.r6i",
+    "priority": "139",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-8-5g-systemui.apk",
+    "package": "me.phh.treble.overlay.realme.r8_5g.systemui",
+    "priority": "336",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-8-5g.apk",
+    "package": "me.phh.treble.overlay.realme.r8_5g",
+    "priority": "261",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-8pro.apk",
+    "package": "me.phh.treble.overlay.realme.r_8pro",
+    "priority": "347",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-9i-systemui.apk",
+    "package": "me.phh.treble.overlay.realme.r9i.systemui",
+    "priority": "135",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-9i.apk",
+    "package": "me.phh.treble.overlay.realme.r9i",
+    "priority": "134",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-c2.apk",
+    "package": "me.phh.treble.overlay.realme.c2",
+    "priority": "310",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-c3.apk",
+    "package": "me.phh.treble.overlay.realme.c3",
+    "priority": "184",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-gt2master-systemui.apk",
+    "package": "me.phh.treble.overlay.realme.gt2master.systemui",
+    "priority": "2159",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-gt2master.apk",
+    "package": "me.phh.treble.overlay.realme.gt2master",
+    "priority": "2159",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-gt2pro-systemui.apk",
+    "package": "me.phh.treble.overlay.realme.gt2pro.systemui",
+    "priority": "2163",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-gt2pro.apk",
+    "package": "me.phh.treble.overlay.realme.gt2pro",
+    "priority": "2163",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-gtmaster-systemui.apk",
+    "package": "me.phh.treble.overlay.realme.gtmaster.systemui",
+    "priority": "2160",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-gtmaster.apk",
+    "package": "me.phh.treble.overlay.realme.gtmaster",
+    "priority": "2160",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-gtmasterexplorer-systemui.apk",
+    "package": "me.phh.treble.overlay.realme.gtmasterexplorer.systemui",
+    "priority": "2161",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-gtmasterexplorer.apk",
+    "package": "me.phh.treble.overlay.realme.gtmasterexplorer",
+    "priority": "2161",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-gtneo3-systemui.apk",
+    "package": "me.phh.treble.overlay.realme.gtneo3.systemui",
+    "priority": "2164",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-gtneo3.apk",
+    "package": "me.phh.treble.overlay.realme.gtneo3",
+    "priority": "2164",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-narzo10a.apk",
+    "package": "me.phh.treble.overlay.realme.narzo10a",
+    "priority": "171",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-q2-systemui.apk",
+    "package": "me.phh.treble.overlay.realme.q2.systemui",
+    "priority": "2061",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-q2.apk",
+    "package": "me.phh.treble.overlay.realme.q2",
+    "priority": "2061",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-q3.apk",
+    "package": "me.phh.treble.overlay.realme.q3",
+    "priority": "701",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-realme-x2pro.apk",
+    "package": "me.phh.treble.overlay.realme.x2pro",
+    "priority": "108",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-S10pq.apk",
+    "package": "me.phh.treble.overlay.samsung.S10pq",
+    "priority": "82",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-S10q.apk",
+    "package": "me.phh.treble.overlay.samsung.S10q",
+    "priority": "83",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-S20-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.S20.systemui",
+    "priority": "512",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-S20.apk",
+    "package": "me.phh.treble.overlay.samsung.S20",
+    "priority": "485",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-S20fe-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.S20fe.systemui",
+    "priority": "400",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-S20fe.apk",
+    "package": "me.phh.treble.overlay.samsung.S20fe",
+    "priority": "302",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a02q-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.a02q.systemui",
+    "priority": "483",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a02q.apk",
+    "package": "me.phh.treble.overlay.samsung.a02q",
+    "priority": "357",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a03.apk",
+    "package": "me.phh.treble.overlay.samsung.a03",
+    "priority": "553",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a10s.apk",
+    "package": "me.phh.treble.overlay.samsung.a10s",
+    "priority": "793",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a20.apk",
+    "package": "me.phh.treble.overlay.samsung.a20",
+    "priority": "660",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a20s-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.a20s.systemui",
+    "priority": "720",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a20s.apk",
+    "package": "me.phh.treble.overlay.samsung.a20s",
+    "priority": "621",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a21s-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.a21s.systemui",
+    "priority": "981",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a21s.apk",
+    "package": "me.phh.treble.overlay.samsung.a21s",
+    "priority": "980",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a30.apk",
+    "package": "me.phh.treble.overlay.samsung.a30",
+    "priority": "163",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a31-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.a31.systemui",
+    "priority": "367",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a31.apk",
+    "package": "me.phh.treble.overlay.samsung.a31",
+    "priority": "367",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a32-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.a32.systemui",
+    "priority": "958",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a32.apk",
+    "package": "me.phh.treble.overlay.samsung.a32",
+    "priority": "437",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a33-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.a33.systemui",
+    "priority": "563",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a33.apk",
+    "package": "me.phh.treble.overlay.samsung.a33",
+    "priority": "563",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a40-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.a40.systemui",
+    "priority": "80",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a40.apk",
+    "package": "me.phh.treble.overlay.samsung.a40",
+    "priority": "86",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a50.apk",
+    "package": "me.phh.treble.overlay.samsung.a50",
+    "priority": "136",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a51-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.a51.systemui",
+    "priority": "102",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a51.apk",
+    "package": "me.phh.treble.overlay.samsung.a51",
+    "priority": "102",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a51x.apk",
+    "package": "me.phh.treble.overlay.samsung.a51x",
+    "priority": "123",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a52.apk",
+    "package": "me.phh.treble.overlay.samsung.a52",
+    "priority": "637",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a53-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.a53.systemui",
+    "priority": "616",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a53.apk",
+    "package": "me.phh.treble.overlay.samsung.a53",
+    "priority": "975",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a54x-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.a54x.systemui",
+    "priority": "1826",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a54x.apk",
+    "package": "me.phh.treble.overlay.samsung.a54x",
+    "priority": "955",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a60q.apk",
+    "package": "me.phh.treble.overlay.samsung.a60q",
+    "priority": "120",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a7.apk",
+    "package": "me.phh.treble.overlay.samsung.a7",
+    "priority": "249",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a70.apk",
+    "package": "me.phh.treble.overlay.samsung.a70",
+    "priority": "185",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a71.apk",
+    "package": "me.phh.treble.overlay.samsung.a71",
+    "priority": "907",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a73.apk",
+    "package": "me.phh.treble.overlay.samsung.a73",
+    "priority": "736",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a80.apk",
+    "package": "me.phh.treble.overlay.samsung.a80",
+    "priority": "179",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a82xq-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.a82xq.systemui",
+    "priority": "1826",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a82xq.apk",
+    "package": "me.phh.treble.overlay.samsung.a82xq",
+    "priority": "1826",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-a9.apk",
+    "package": "me.phh.treble.overlay.samsung.a9",
+    "priority": "593",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-d1q-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.d1q.systemui",
+    "priority": "2970",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-d1q.apk",
+    "package": "me.phh.treble.overlay.samsung.d1q",
+    "priority": "2970",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-d1x-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.d1x.systemui",
+    "priority": "2971",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-d1x.apk",
+    "package": "me.phh.treble.overlay.samsung.d1x",
+    "priority": "2971",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-gta2xl.apk",
+    "package": "me.phh.treble.overlay.samsung.gta2xl",
+    "priority": "693",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-gta3xl.apk",
+    "package": "me.phh.treble.overlay.samsung.gta3xl",
+    "priority": "125",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-gta4l.apk",
+    "package": "me.phh.treble.overlay.samsung.gta4l",
+    "priority": "861",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-gta7litewifi.apk",
+    "package": "me.phh.treble.overlay.samsung.gta7litewifi",
+    "priority": "860",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-gts7xllite.apk",
+    "package": "me.phh.treble.overlay.samsung.gts7xllite",
+    "priority": "968",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-gts8.apk",
+    "package": "me.phh.treble.overlay.samsung.gts8",
+    "priority": "380",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-gts8p.apk",
+    "package": "me.phh.treble.overlay.samsung.gts8p",
+    "priority": "499",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-j6.apk",
+    "package": "me.phh.treble.overlay.samsung.j6",
+    "priority": "223",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-m31-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.m31.systemui",
+    "priority": "346",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-m31.apk",
+    "package": "me.phh.treble.overlay.samsung.m31",
+    "priority": "263",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-m31s-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.m31s.systemui",
+    "priority": "345",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-m31s.apk",
+    "package": "me.phh.treble.overlay.samsung.m31s",
+    "priority": "301",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-m52.apk",
+    "package": "me.phh.treble.overlay.samsung.m52",
+    "priority": "979",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-n9q.apk",
+    "package": "me.phh.treble.overlay.samsung.n9q",
+    "priority": "48",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-o1s.apk",
+    "package": "me.phh.treble.overlay.samsung.o1s",
+    "priority": "377",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-p3s-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.p3s.systemui",
+    "priority": "399",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-p3s.apk",
+    "package": "me.phh.treble.overlay.samsung.p3s",
+    "priority": "399",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-r0q-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.r0q.systemui",
+    "priority": "978",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-r0q.apk",
+    "package": "me.phh.treble.overlay.samsung.r0q",
+    "priority": "978",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-r0s-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.r0s.systemui",
+    "priority": "977",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-r0s.apk",
+    "package": "me.phh.treble.overlay.samsung.r0s",
+    "priority": "976",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-r5q.apk",
+    "package": "me.phh.treble.overlay.samsung.r5q",
+    "priority": "628",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-r9q.apk",
+    "package": "me.phh.treble.overlay.samsung.r9q",
+    "priority": "315",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-r9s.apk",
+    "package": "me.phh.treble.overlay.samsung.r9s",
+    "priority": "419",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-s10e.apk",
+    "package": "me.phh.treble.overlay.samsung.s10e",
+    "priority": "64",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-s9pq.apk",
+    "package": "me.phh.treble.overlay.samsung.s9pq",
+    "priority": "65",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-s9q.apk",
+    "package": "me.phh.treble.overlay.samsung.s9q",
+    "priority": "30",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-starqltekdi-systemui.apk",
+    "package": "me.phh.treble.overlay.samsung.starqltekdi.systemui",
+    "priority": "960",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-starqltekdi.apk",
+    "package": "me.phh.treble.overlay.samsung.starqltekdi",
+    "priority": "960",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-t2s.apk",
+    "package": "me.phh.treble.overlay.samsung.t2s",
+    "priority": "391",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-samsung-z3q.apk",
+    "package": "me.phh.treble.overlay.samsung.z3q",
+    "priority": "275",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-sec-ims.apk",
+    "package": "me.phh.treble.overlay.secims",
+    "priority": "182",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-sharp-s2.apk",
+    "package": "me.phh.treble.overlay.sharp.s2",
+    "priority": "18",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-sony-J9110.apk",
+    "package": "me.phh.treble.overlay.sony.J9110",
+    "priority": "783",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-sony-SO-03L.apk",
+    "package": "me.phh.treble.overlay.sony.SO03L",
+    "priority": "426",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-sony-XZ2.apk",
+    "package": "me.phh.treble.overlay.sony.XZ2",
+    "priority": "278",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-sony-XZ3.apk",
+    "package": "me.phh.treble.overlay.sony.XZ3",
+    "priority": "23",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-sony-pdx206-kddi.apk",
+    "package": "me.phh.treble.overlay.sony.pdx206",
+    "priority": "1830",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-sony-pdx206.apk",
+    "package": "me.phh.treble.overlay.sony.pdx206",
+    "priority": "454",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-sony-pdx213-systemui.apk",
+    "package": "me.phh.treble.overlay.sony.pdx213.systemui",
+    "priority": "121",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-sony-pdx213.apk",
+    "package": "me.phh.treble.overlay.sony.pdx213",
+    "priority": "121",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-sony-pdx215.apk",
+    "package": "me.phh.treble.overlay.sony.pdx215",
+    "priority": "440",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-sony-pdx223.apk",
+    "package": "me.phh.treble.overlay.sony.pdx223",
+    "priority": "667",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-sprd-ims.apk",
+    "package": "me.phh.treble.overlay.sprdims",
+    "priority": "155",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-teclast-m30.apk",
+    "package": "me.phh.treble.overlay.teclast.M30",
+    "priority": "140",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-teclast-p20hd.apk",
+    "package": "me.phh.treble.overlay.teclast.P20HD",
+    "priority": "854",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-teclast-t30.apk",
+    "package": "me.phh.treble.overlay.teclast.t30",
+    "priority": "117",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-tecno-camon11.apk",
+    "package": "me.phh.treble.overlay.tecno.camon11",
+    "priority": "61",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-tecno-camon18p.apk",
+    "package": "me.phh.treble.overlay.tecno.camon18p",
+    "priority": "327",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-tecno-camon20pro4g-systemui.apk",
+    "package": "me.phh.treble.overlay.tecno.camon20pro4g.systemui",
+    "priority": "344",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-tecno-camon20pro4g.apk",
+    "package": "me.phh.treble.overlay.tecno.camon20pro4g",
+    "priority": "439",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-tecno-pova4-systemui.apk",
+    "package": "me.phh.treble.overlay.tecno.pova4.systemui",
+    "priority": "636",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-tecno-pova4.apk",
+    "package": "me.phh.treble.overlay.tecno.pova4",
+    "priority": "636",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-tecno-pova4pro-systemui.apk",
+    "package": "me.phh.treble.overlay.tecno.pova4pro.systemui",
+    "priority": "634",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-tecno-pova4pro.apk",
+    "package": "me.phh.treble.overlay.tecno.pova4pro",
+    "priority": "634",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-tecno-pova5-systemui.apk",
+    "package": "me.phh.treble.overlay.tecno.pova5.systemui",
+    "priority": "535",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-tecno-pova5.apk",
+    "package": "me.phh.treble.overlay.tecno.pova5",
+    "priority": "535",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-tecno-pova5pro-systemui.apk",
+    "package": "me.phh.treble.overlay.tecno.pova5pro.systemui",
+    "priority": "147",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-tecno-pova5pro.apk",
+    "package": "me.phh.treble.overlay.tecno.pova5pro",
+    "priority": "147",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-tecno-spark10pro.apk",
+    "package": "me.phh.treble.overlay.TECNO.Spark10Pro",
+    "priority": "816",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-tecno-spark5.apk",
+    "package": "me.phh.treble.overlay.tecno.spark5",
+    "priority": "902",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-tecno-spark6.apk",
+    "package": "me.phh.treble.overlay.TECNO.Spark6",
+    "priority": "544",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-telephony-caf-ims.apk",
+    "package": "me.phh.treble.overlay.cafims_telephony",
+    "priority": "79",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-telephony-floss-ims.apk",
+    "package": "me.phh.treble.overlay.flossims_telephony",
+    "priority": "80",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-telephony-hw-ims.apk",
+    "package": "me.phh.treble.overlay.hwims_telephony",
+    "priority": "79",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-telephony-mtk-ims.apk",
+    "package": "me.phh.treble.overlay.mtkims_telephony",
+    "priority": "79",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-telephony-slsi-ims.apk",
+    "package": "me.phh.treble.overlay.slsiims_telephony",
+    "priority": null,
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-telephony-sprd-ims.apk",
+    "package": "me.phh.treble.overlay.sprdims_telephony",
+    "priority": "79",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-teracube-2e.apk",
+    "package": "me.phh.treble.overlay.teracube2e",
+    "priority": "312",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-teracube-v7101o.apk",
+    "package": "me.phh.treble.overlay.teracube.one",
+    "priority": "311",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-tethering-nobpf.apk",
+    "package": "me.phh.treble.overlay.tethering.nobpf",
+    "priority": "10",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-tethering.apk",
+    "package": "me.phh.treble.overlay.tethering",
+    "priority": "10",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-umidigi-A13-Pro-Max-5G.apk",
+    "package": "me.phh.treble.overlay.umidigi.A13_Pro_Max_5G",
+    "priority": "843",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-umidigi-A3S.apk",
+    "package": "me.phh.treble.overlay.umidigi.A3S",
+    "priority": "153",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-umidigi-A5pro.apk",
+    "package": "me.phh.treble.overlay.UMIDIGI.A5_Pro_EEA",
+    "priority": "523",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-umidigi-power.apk",
+    "package": "me.phh.treble.overlay.umidigi.power",
+    "priority": "114",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-unihertz-jelly2.apk",
+    "package": "me.phh.treble.overlay.unihertz.jelly2",
+    "priority": "218",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-unihertz-luna.apk",
+    "package": "me.phh.treble.overlay.unihertz.luna",
+    "priority": "180",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-unihertz-titanpocketeea.apk",
+    "package": "me.phh.treble.overlay.unihertz.titan_pocket_eea",
+    "priority": "177",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-vivo-y20-systemui.apk",
+    "package": "me.phh.treble.overlay.vivo.y20.systemui",
+    "priority": "581",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-vivo-y20.apk",
+    "package": "me.phh.treble.overlay.vivo.y20",
+    "priority": "392",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-vivo-y31.apk",
+    "package": "me.phh.treble.overlay.vivo.y31",
+    "priority": "977",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-vsmart-active3.apk",
+    "package": "me.phh.treble.overlay.vsmart.active3",
+    "priority": "226",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-vsmart-joy3.apk",
+    "package": "me.phh.treble.overlay.vsmart.joy3",
+    "priority": "885",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-vsmart-live.apk",
+    "package": "me.phh.treble.overlay.vsmart.live",
+    "priority": "118",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-wifi5g.apk",
+    "package": "me.phh.treble.overlay.wifi5g",
+    "priority": "10",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-civi-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.civi.systemui",
+    "priority": "778",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-civi.apk",
+    "package": "me.phh.treble.overlay.xiaomi.civi",
+    "priority": "778",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-civi4pro-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.civi4pro.systemui",
+    "priority": "1244",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-civi4pro.apk",
+    "package": "me.phh.treble.overlay.xiaomi.civi4pro",
+    "priority": "1244",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mi11lite5g-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mi11lite5g.systemui",
+    "priority": "513",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mi11lite5g.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mi11lite5g",
+    "priority": "511",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mi11tpro.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mi11tpro",
+    "priority": "871",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mi12lite-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mi12lite.systemui",
+    "priority": "779",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mi12lite.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mi12lite",
+    "priority": "779",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mi13-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mi13.systemui",
+    "priority": "1300",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mi13.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mi13",
+    "priority": "1300",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mi13t.apk",
+    "package": "me.phh.treble.overlay.xiaomi.aristotle",
+    "priority": "788",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mi14pro-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mi14pro.systemui",
+    "priority": "1301",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mi14pro.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mi14pro",
+    "priority": "1301",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mi6x.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mi6x",
+    "priority": "44",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mi8.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mi8",
+    "priority": "12",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mi8ee.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mi8ee",
+    "priority": "17",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mi8lite.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mi8lite",
+    "priority": "53",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mi8pro.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mi8pro",
+    "priority": "59",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mi8se.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mi8se",
+    "priority": "16",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mi9.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mi9",
+    "priority": "101",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mi9se.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mi9se",
+    "priority": "89",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mia2.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mia2",
+    "priority": "45",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mia2lite.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mia2lite",
+    "priority": "22",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mimax3.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mimax3",
+    "priority": "46",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mimix2s.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mimix2s",
+    "priority": "13",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mimix3-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mimix3.systemui",
+    "priority": "52",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mimix3.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mimix3",
+    "priority": "51",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mipad4.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mipad4",
+    "priority": "27",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-mipad5pro5g.apk",
+    "package": "me.phh.treble.overlay.xiaomi.mipad5pro5g",
+    "priority": "737",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-miplay.apk",
+    "package": "me.phh.treble.overlay.xiaomi.miplay",
+    "priority": "73",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-pocof1.apk",
+    "package": "me.phh.treble.overlay.xiaomi.pocof1",
+    "priority": "26",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-pocof4-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.pocof4.systemui",
+    "priority": "556",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-pocof4.apk",
+    "package": "me.phh.treble.overlay.xiaomi.pocof4",
+    "priority": "500",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-pocof5-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.pocof5.systemui",
+    "priority": "9009",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-pocof5.apk",
+    "package": "me.phh.treble.overlay.xiaomi.pocof5",
+    "priority": "9008",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-pocom3pro5g.apk",
+    "package": "me.phh.treble.overlay.xiaomi.pocom3pro5g",
+    "priority": "981",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-pocom4pro5g-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.pocom4pro5g.systemui",
+    "priority": "605",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-pocom4pro5g.apk",
+    "package": "me.phh.treble.overlay.xiaomi.pocom4pro5g",
+    "priority": "605",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-pocom5-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.pocom5.systemui",
+    "priority": "340",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-pocom5.apk",
+    "package": "me.phh.treble.overlay.xiaomi.pocom5",
+    "priority": "340",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-pocox3gt.apk",
+    "package": "me.phh.treble.overlay.xiaomi.pocox3gt",
+    "priority": "829",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmi10x5g-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmi10x5g.systemui",
+    "priority": "823",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmi10x5g.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmi10x5g",
+    "priority": "823",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmi6.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmi6",
+    "priority": "56",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmi6a.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmi6a",
+    "priority": "57",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmi6pro.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmi6pro",
+    "priority": "19",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmi7a.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmi7a",
+    "priority": "113",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmi7onc.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmi7onc",
+    "priority": "98",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmi8.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmi8",
+    "priority": "178",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmi8a.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmi8a",
+    "priority": "112",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmi9-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmi9.systemui",
+    "priority": "122",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmi9.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmi9",
+    "priority": "122",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmi9a.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmi9a",
+    "priority": "397",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmi9t.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmi9t",
+    "priority": "751",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmigo.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmigo",
+    "priority": "105",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmik20pro-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmik20pro.systemui",
+    "priority": "555",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmik20pro.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmik20pro",
+    "priority": "555",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmik50ultra.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmik50ultra",
+    "priority": "599",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmik70-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmik70.systemui",
+    "priority": "1270",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmik70.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmik70",
+    "priority": "1270",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmik70ultra-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmik70ultra.systemui",
+    "priority": "1271",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmik70ultra.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmik70ultra",
+    "priority": "1271",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote10.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote10",
+    "priority": "550",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote10pro.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote10pro",
+    "priority": "725",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote10s-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote10s.systemui",
+    "priority": "934",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote10s.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote10s",
+    "priority": "671",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote11.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote11",
+    "priority": "618",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote114g-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote114g.systemui",
+    "priority": "403",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote114g.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote114g",
+    "priority": "402",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote115g-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote115g.systemui",
+    "priority": "197",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote115g.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote115g",
+    "priority": "197",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote125g.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote125g",
+    "priority": "675",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote12pro5g.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote12pro5g",
+    "priority": "763",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote13pro4g-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote13pro4g.systemui",
+    "priority": "1340",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote13pro4g.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote13pro4g",
+    "priority": "1340",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote5.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote5",
+    "priority": "203",
+    "isStatic": "true",
+    "same_resource": true
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote6pro-systemui.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote6pro.systemui",
+    "priority": "56",
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote6pro.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote6pro",
+    "priority": "55",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote7.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote7",
+    "priority": "75",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote8.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote8",
+    "priority": "1141",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote8pro.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote8pro",
+    "priority": "141",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote9pro.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote9pro",
+    "priority": "937",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote9promax.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote9promax",
+    "priority": "949",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote9s.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote9s",
+    "priority": "313",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redminote9t.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redminote9t",
+    "priority": "878",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/product/overlay/treble-overlay-xiaomi-redmis2.apk",
+    "package": "me.phh.treble.overlay.xiaomi.redmis2",
+    "priority": "58",
+    "isStatic": "true",
+    "same_resource": false
+  },
+  {
+    "path": "/system/system_ext/overlay/gsi_overlay_framework.apk",
+    "package": "android.gsi.overlay",
+    "priority": null,
+    "isStatic": null,
+    "same_resource": false
+  },
+  {
+    "path": "/system/system_ext/overlay/gsi_overlay_systemui.apk",
+    "package": "com.android.systemui.gsi.overlay",
+    "priority": null,
+    "isStatic": null,
+    "same_resource": false
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "apk_sha256": "4950eecf4aab9ab7ea8f9b46eac5ccb8f144974208af391aaa587e9e53efd9c9",
+  "package": "io.github.sma1560.fingerprintfix",
+  "compiled_array_length": 0,
+  "mapping": {
+    "array/config_biometric_sensors": "0x7f010000"
+  },
+  "signature_verified": true,
+  "zip_alignment_verified": true,
+  "framework": {
+    "sha256": "73c299e09da0063dcf78badff380d29b422fa06f7d2d10a525494007711dd7e7",
+    "resource_id": "0x01070028",
+    "overlayable_groups": false,
+    "fulfilled_partition_policy": "system"
+  },
+  "idmap2": "PASS (overlayable enforced; one mapping)",
+  "runtime_priority": "REQUIRES_DEVICE",
+  "fingerprint_enrollment": "UNTESTED"
+}

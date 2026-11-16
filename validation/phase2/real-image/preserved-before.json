@@ -1,0 +1,68 @@
+{
+  "/system/system_ext/overlay/gsi_overlay_framework.apk": {
+    "info": {
+      "inode": 7223,
+      "type": "regular",
+      "mode": "0644",
+      "uid": 0,
+      "gid": 0
+    },
+    "xattrs": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_overlay_file:s0\\000\"\ndebugfs 1.47.2 (1-Jan-2025)\n",
+    "sha256": "218b57f1f01d4638be1edf92ae3948bd0b4712b3403bfa3c97121b7147466d8c"
+  },
+  "/system/system_ext/overlay/gsi_overlay_systemui.apk": {
+    "info": {
+      "inode": 7224,
+      "type": "regular",
+      "mode": "0644",
+      "uid": 0,
+      "gid": 0
+    },
+    "xattrs": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_overlay_file:s0\\000\"\ndebugfs 1.47.2 (1-Jan-2025)\n",
+    "sha256": "89f8900b148bc7191849e751bcdc7ef4dd5b8d570330833b63859747abf50d27"
+  },
+  "/system/framework/framework-res.apk": {
+    "info": {
+      "inode": 1683,
+      "type": "regular",
+      "mode": "0644",
+      "uid": 0,
+      "gid": 0
+    },
+    "xattrs": "Extended attributes:\n  security.selinux (26) = \"u:object_r:system_file:s0\\000\"\ndebugfs 1.47.2 (1-Jan-2025)\n",
+    "sha256": "73c299e09da0063dcf78badff380d29b422fa06f7d2d10a525494007711dd7e7"
+  },
+  "/system/etc/selinux/plat_file_contexts": {
+    "info": {
+      "inode": 1125,
+      "type": "regular",
+      "mode": "0644",
+      "uid": 0,
+      "gid": 0
+    },
+    "xattrs": "Extended attributes:\n  security.selinux (33) = \"u:object_r:file_contexts_file:s0\\000\"\ndebugfs 1.47.2 (1-Jan-2025)\n",
+    "sha256": "ba732082e155c14371318d02692e6c73456b6bb3534a2e6e4b8cda806c1114b3"
+  },
+  "/system/product/etc/selinux/product_file_contexts": {
+    "info": {
+      "inode": 3852,
+      "type": "regular",
+      "mode": "0644",
+      "uid": 0,
+      "gid": 0
+    },
+    "xattrs": "Extended attributes:\n  security.selinux (33) = \"u:object_r:file_contexts_file:s0\\000\"\ndebugfs 1.47.2 (1-Jan-2025)\n",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/system/system_ext/etc/selinux/system_ext_file_contexts": {
+    "info": {
+      "inode": 4973,
+      "type": "regular",
+      "mode": "0644",
+      "uid": 0,
+      "gid": 0
+    },
+    "xattrs": "Extended attributes:\n  security.selinux (33) = \"u:object_r:file_contexts_file:s0\\000\"\ndebugfs 1.47.2 (1-Jan-2025)\n",
+    "sha256": "64b89b33b182a508cd13d71b2df3813e722ec48dd13d79c4244607351f852c2d"
+  }
+}

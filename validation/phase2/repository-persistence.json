@@ -1,0 +1,9 @@
+{
+  "repository_url": "https://github.com/Night114514/sm-a1560-fingerprint-fix",
+  "phase1_commit": "ea409798df76366ff8e3dc76fe16fe53406e2ea5",
+  "phase2_build_source_commit": "d053e04d9c2a0f398803de0a71d2efaa5d7843fc",
+  "phase1_commit_is_ancestor": true,
+  "phase1_apk_fetched_from_remote": true,
+  "remote_apk_bytes": 8604,
+  "remote_apk_sha256": "4950eecf4aab9ab7ea8f9b46eac5ccb8f144974208af391aaa587e9e53efd9c9"
+}

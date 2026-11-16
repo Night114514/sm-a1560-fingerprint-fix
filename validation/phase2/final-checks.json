@@ -1,0 +1,17 @@
+{
+  "phase1_remote_persistence": "PASS",
+  "sourceforge_archive_and_raw_integrity": "PASS",
+  "ARM64_AB_EXT4": "PASS",
+  "native_Android_idmap2_under_QEMU": "PASS",
+  "public_only_policy_rejected": "PASS",
+  "original_raw_unchanged": "PASS",
+  "real_EXT4_permissions_labels": "PASS",
+  "same_key_AVB_signature_hashtree_FEC": "PASS",
+  "verify_sh_real_image": "PASS",
+  "XZ_CRC_decode_sha256_size": "PASS",
+  "Bash_ShellCheck_Python": "PASS",
+  "Windows_runtime": "NOT_TESTED",
+  "DSU_device_install_boot": "NOT_TESTED",
+  "AIDL_generateChallenge_enrollment": "NOT_TESTED",
+  "CXX": "g++ (Debian 14.2.0-19) 14.2.0"
+}

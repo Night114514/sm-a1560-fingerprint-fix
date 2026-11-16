@@ -1,0 +1,14 @@
+{
+  "file": "system.img.xz",
+  "xz_sha256": "4a8641bd3557eb64abb2933742be320932cb821a5724a848994bc88a7a816b02",
+  "xz_bytes": 1160448988,
+  "raw_sha256": "6d2cb3f536d675dc85dd891a751c46f24d229bd1770f000a69ef23e46507b83f",
+  "raw_bytes": 3340144640,
+  "xz_test": "PASS",
+  "decoded_sha256_and_size": "PASS",
+  "filter": "LZMA2 preset 6, 8 MiB dictionary, CRC64",
+  "staging": "sealed Linux memfd",
+  "derived_raw_removed_after_check": true,
+  "original_input": "UNTOUCHED",
+  "device_DSU_installation": "UNTESTED"
+}

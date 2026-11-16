@@ -1,5 +1,7 @@
 # 本次實際驗證紀錄
 
+> 本文件保留第一階段的歷史紀錄；目前第二階段的真實 GSI 與 idmap2 檢查請見 [第二階段測試報告](docs/phase2-report.md)。
+
 執行環境：選定的 Codex Cloud Linux 預設環境，Debian GNU/Linux 13、x86_64；工作檔全部在 workspace。未連接手機，未提供原版 LineageOS GSI。
 
 ## 已交付 APK
