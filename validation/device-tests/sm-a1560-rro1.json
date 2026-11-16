@@ -1,0 +1,28 @@
+{
+  "recorded_date": "2026-11-16",
+  "recorded_timezone": "UTC",
+  "actual_test_date": null,
+  "evidence_source": "user_report_in_conversation",
+  "independently_observed_by_codex": false,
+  "raw_logs_or_screenshots_provided": false,
+  "device": "Samsung Galaxy A15 5G (SM-A1560)",
+  "stock_vendor": "One UI 7 / Android 15",
+  "bootloader": "A1560ZHS6CYH2",
+  "gsi": "LineageOS 22.2 GApps EXT4",
+  "release": "phase2-los22.2-20260105-rro1",
+  "installation": "DSU Sideloader + Shizuku",
+  "reported_checks": {
+    "RRO enabled": "PASS",
+    "RRO resource override": "PASS",
+    "Fingerprint enrollment": "PASS",
+    "Fingerprint unlock": "PASS"
+  },
+  "result": "FINGERPRINT_FIX_CONFIRMED",
+  "scope": "Tested device and configuration only",
+  "published_artifact_reference": {
+    "name": "system.img.xz",
+    "sha256": "4a8641bd3557eb64abb2933742be320932cb821a5724a848994bc88a7a816b02",
+    "measured_on_device_by_user": null
+  },
+  "report_document": "docs/device-test-sm-a1560-rro1.md"
+}

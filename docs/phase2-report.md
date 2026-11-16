@@ -1,6 +1,8 @@
 # SM-A1560：第二階段 GSI 測試報告
 
-已製作供真機測試的 LineageOS 22.2 / 20260105 GApps EXT4 ARM64 A/B GSI。離線檢查已通過；**尚未在 SM-A1560 安裝、啟動或完成 AIDL 指紋登記，不能聲稱指紋已修復。**
+已製作供真機測試的 LineageOS 22.2 / 20260105 GApps EXT4 ARM64 A/B GSI，離線檢查已通過。**後續使用者真機回報：`FINGERPRINT_FIX_CONFIRMED`，僅限 SM-A1560 / One UI 7 Android 15 Vendor / Bootloader `A1560ZHS6CYH2` / Release `phase2-los22.2-20260105-rro1`。** RRO 啟用、資源覆寫、指紋登記及解鎖均回報 PASS，完整來源與範圍見[真機紀錄](device-test-sm-a1560-rro1.md)。
+
+Release 附件 `TEST-REPORT.md`、`WINDOWS-DSU.md` 與原始碼套件保留發布時的離線驗證快照；其中「尚無真機結果」描述的是當時狀態。此次只更新倉庫文件與 Release 說明，所有發布附件與雜湊維持不變。
 
 [下載 Release](https://github.com/Night114514/sm-a1560-fingerprint-fix/releases/tag/phase2-los22.2-20260105-rro1) · [Git Repository](https://github.com/Night114514/sm-a1560-fingerprint-fix) · [Windows 安裝與驗證](windows-dsu-phase2.md) · [完整構建方式](phase2-build.md)
 
@@ -65,8 +67,8 @@ XZ 使用 LZMA2 preset 6、8 MiB dictionary、CRC64。已執行 xz test 並完�
 
 獨立執行 idmap2 時沒有 Android 產生的 linker config，工具有相關警告但成功完成映射。主機 libselinux 對兩條含 `\d` 的規則提示回退 regex matching；實際標籤匹配與 xattr 讀回均成功。這些不是手機的 log。
 
-DSU 的離線輸入結構已核對：raw EXT4、system partition 名稱、原大小、原公鑰信任條件及合法 XZ 容器皆成立。**Samsung DSU 的實際接受、啟動與 Vendor 相容性仍須真機驗證**，不能由這些離線結果推定。
+DSU 的離線輸入結構已核對：raw EXT4、system partition 名稱、原大小、原公鑰信任條件及合法 XZ 容器皆成立。後續使用者回報以 DSU Sideloader + Shizuku 安裝此 Release，並完成指紋登記與解鎖；這是指定配置的真機回報，並非從離線結果推定。
 
-尚未完成：手機端 overlay 最終生效值、真正 AIDL/default 的 sensor/session、generateChallenge、完成登記及實際解鎖。Windows/PowerShell 操作文件與收集腳本也尚未在 Windows／裝置執行。
+本次回報的四項結果為 PASS：RRO enabled、RRO resource override、Fingerprint enrollment、Fingerprint unlock。Codex 沒有直接操作裝置；回報未附原始日誌或截圖，也未提供 AIDL/default sensor/session、generateChallenge 或 runtime idmap 的逐項紀錄。這些細項不另行標記為已獨立驗證。Windows/PowerShell 收集腳本也沒有新增執行證據。
 
-下一步依 [Windows DSU 步驟](windows-dsu-phase2.md) 測試並收集 before/after 紀錄；最終判定需要真機 AIDL 登記及驗證結果。
+其他裝置、Bootloader、Vendor 或 GSI 版本仍須依 [Windows DSU 步驟](windows-dsu-phase2.md) 各自測試；本次成功不能外推至未測試的配置。

@@ -101,7 +101,7 @@ python3 scripts/compress-verified.py --image work/gsi/system.img \
 
 ## DSU 邊界
 
-離線可以證實的，是 EXT4／AVB／映像大小／壓縮容器及 RRO 構造符合本版本的 system 映像要求。原版大小、分區名稱、公鑰與信任參數均保持一致。但沒有連接 SM-A1560，不能聲稱 Samsung DSU 已接受、已啟動或 AIDL 登記成功。實際操作與判讀見主 README 及本階段測試報告。
+離線可以證實的，是 EXT4／AVB／映像大小／壓縮容器及 RRO 構造符合本版本的 system 映像要求。原版大小、分區名稱、公鑰與信任參數均保持一致。其後收到[使用者真機回報](device-test-sm-a1560-rro1.md)：SM-A1560 / One UI 7 Android 15 Vendor / Bootloader `A1560ZHS6CYH2` 使用本 Release 經 DSU Sideloader + Shizuku 測試，RRO 啟用／覆寫、指紋登記及解鎖均為 PASS。此結果僅限回報的裝置與配置；Codex 未直接操作裝置，也沒有新增 AIDL 呼叫日誌。實際操作與判讀見主 README 及本階段測試報告。
 
 ## 位元組相同的交付
 

@@ -1,6 +1,6 @@
 # Windows：安裝 SM-A1560 指紋 RRO 實驗版 GSI
 
-目標：Galaxy A15 5G SM-A1560、One UI 7 / Android 15 Vendor、ARM64 A/B、已解鎖 Bootloader、無 Root。這是供真機驗證的實驗映像，沒有指紋已修復的結論。
+目標：Galaxy A15 5G SM-A1560、One UI 7 / Android 15 Vendor、ARM64 A/B、已解鎖 Bootloader、無 Root。已收到[使用者真機成功回報](device-test-sm-a1560-rro1.md)：Bootloader `A1560ZHS6CYH2` 搭配 Release `phase2-los22.2-20260105-rro1`，透過 DSU Sideloader + Shizuku 測試，RRO 啟用／覆寫、指紋登記及解鎖均為 PASS。成功範圍僅限該裝置與配置；其他配置仍須各自驗證。
 
 ## 下載與檔案核對
 
@@ -102,4 +102,4 @@ Select-String -Path .\logs-after\logcat.txt -Pattern "HIDL daemon is null|genera
 | 能完成登記並列出指紋 | 已通過登記階段，還需實際解鎖／驗證 |
 | 完成登記且實際驗證可用 | 才有這台裝置此次測試成功的證據 |
 
-測試結束可透過 DSU 通知返回原系統並移除 dynamic system。啟動失敗時先嘗試一般重新開機回原系統，保留紀錄後停止。沒有真機資料前，本專案不聲稱指紋已修復。
+測試結束可透過 DSU 通知返回原系統並移除 dynamic system。啟動失敗時先嘗試一般重新開機回原系統，保留紀錄後停止。已收錄的[成功回報](device-test-sm-a1560-rro1.md)僅代表指定裝置與配置的此次測試結果。

@@ -2,7 +2,9 @@
 
 Samsung Galaxy A15 5G **SM-A1560** 的 Android 15 GSI 最小 RRO 修復實驗。目標環境為原廠 Android 15 / One UI 7 Vendor、已解鎖 Bootloader，以及 LineageOS 22.2 Android 15 GApps EXT4 GSI。
 
-**第二階段已產出供實機測試的修正版 GSI，通過 EXT4、RRO/idmap2、SELinux、同公鑰 AVB/FEC 與 XZ 解壓雜湊檢查；尚無真機 DSU 啟動或指紋登記結果，不能聲稱指紋已修復。**
+**真機測試結果（使用者回報）：`FINGERPRINT_FIX_CONFIRMED`。** Release `phase2-los22.2-20260105-rro1` 在 SM-A1560、One UI 7 / Android 15 Vendor、Bootloader `A1560ZHS6CYH2`，透過 DSU Sideloader + Shizuku 測試：RRO 啟用、資源覆寫、指紋登記及指紋解鎖均為 PASS。結論僅限這台裝置與配置，詳見[真機回報紀錄](docs/device-test-sm-a1560-rro1.md)。
+
+第二階段映像已通過 EXT4、RRO/idmap2、SELinux、同公鑰 AVB/FEC 與 XZ 解壓雜湊檢查。此次真機回報不更換映像，既有發布檔與 SHA-256 保持不變。
 
 [下載實驗版 GSI](https://github.com/Night114514/sm-a1560-fingerprint-fix/releases/tag/phase2-los22.2-20260105-rro1) · [第二階段測試報告](docs/phase2-report.md) · [Windows DSU 步驟](docs/windows-dsu-phase2.md) · [第二階段構建方式](docs/phase2-build.md) 本專案只改一項 framework 資源，不提供 HAL、TEE、Samsung 私有介面或 generateChallenge 相容層。
 
@@ -226,4 +228,4 @@ export AAPT2="$ANDROID_SDK_ROOT/build-tools/35.0.0/aapt2"
 python3 tests/integration.py
 ```
 
-測試在 `work/` 建立並刪除合成 EXT4，不輸出可供手機使用的 ROM。保存的測試結果和 SHA 只代表那些合成樣本。指定原版 GSI 與 Android 15 idmap2 已在第二階段核對；手機端 runtime idmap、有效 overlay 優先級、Samsung AIDL challenge 與真機登記仍須裝置驗證。
+測試在 `work/` 建立並刪除合成 EXT4，不輸出可供手機使用的 ROM。保存的測試結果和 SHA 只代表那些合成樣本。指定原版 GSI 與 Android 15 idmap2 已在第二階段核對；其後收到的[真機回報](docs/device-test-sm-a1560-rro1.md)確認指定配置的 RRO 啟用／覆寫、指紋登記與解鎖均為 PASS。回報未附 runtime idmap 或 AIDL session／challenge 呼叫紀錄，因此不將這些細項另行標為已獨立驗證。
