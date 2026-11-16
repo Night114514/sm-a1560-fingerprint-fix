@@ -1,0 +1,91 @@
+name: Upload verified GSI delivery
+
+on:
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: Temporary HTTPS origin containing only the verified release files
+        required: true
+        type: string
+      manifest_sha256:
+        description: SHA-256 of DELIVERY.json prepared after all image checks passed
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: upload-verified-gsi-phase2
+  cancel-in-progress: false
+
+jobs:
+  transfer:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      GH_REPO: ${{ github.repository }}
+      RELEASE_ID: '447294982'
+      RELEASE_TAG: phase2-los22.2-20260105-rro1
+    steps:
+      - name: Download only the checksum-bound delivery files
+        env:
+          BASE_URL: ${{ inputs.base_url }}
+          EXPECTED_MANIFEST_SHA256: ${{ inputs.manifest_sha256 }}
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, os, pathlib, re, urllib.parse, urllib.request
+          base = os.environ['BASE_URL'].rstrip('/') + '/'
+          u = urllib.parse.urlsplit(base)
+          assert u.scheme == 'https' and u.hostname.endswith('.trycloudflare.com')
+          assert not u.username and not u.password and not u.query and not u.fragment
+          expected = os.environ['EXPECTED_MANIFEST_SHA256']
+          assert re.fullmatch('[0-9a-f]{64}', expected)
+          with urllib.request.urlopen(base + 'DELIVERY.json', timeout=120) as r:
+              payload = r.read(1024 * 1024)
+          assert hashlib.sha256(payload).hexdigest() == expected
+          manifest = json.loads(payload)
+          allowed = {'system.img.xz', 'SHA256SUMS', 'TEST-REPORT.md', 'WINDOWS-DSU.md',
+                     'sm-a1560-fingerprint-fix-source-and-validation.zip', 'SmA1560FingerprintFix.apk'}
+          assert set(manifest['files']) == allowed
+          pathlib.Path('delivery').mkdir()
+          pathlib.Path('delivery/DELIVERY.json').write_bytes(payload)
+          for name, info in manifest['files'].items():
+              assert name in allowed and re.fullmatch('[0-9a-f]{64}', info['sha256'])
+              assert 0 < info['bytes'] < 2 * 1024**3
+              digest, size = hashlib.sha256(), 0
+              with urllib.request.urlopen(base + urllib.parse.quote(name), timeout=180) as source:
+                  with pathlib.Path('delivery', name).open('wb') as out:
+                      while True:
+                          b = source.read(1024 * 1024)
+                          if not b:
+                              break
+                          size += len(b)
+                          assert size <= info['bytes']
+                          digest.update(b)
+                          out.write(b)
+              assert size == info['bytes'] and digest.hexdigest() == info['sha256'], name
+              print(name, size, digest.hexdigest(), flush=True)
+          PY
+      - name: Upload to the existing draft using the repository-scoped Actions token
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          test "$(gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq '.draft')" = true
+          test "$(gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq '.tag_name')" = "$RELEASE_TAG"
+          gh release upload "$RELEASE_TAG" delivery/system.img.xz delivery/SHA256SUMS \
+            delivery/TEST-REPORT.md delivery/WINDOWS-DSU.md \
+            delivery/sm-a1560-fingerprint-fix-source-and-validation.zip \
+            delivery/SmA1560FingerprintFix.apk --clobber
+          gh api "repos/$GH_REPO/releases/$RELEASE_ID/assets" > uploaded-assets.json
+          python3 - <<'PY'
+          import json, pathlib
+          manifest = json.loads(pathlib.Path('delivery/DELIVERY.json').read_text())
+          actual = {x['name']: x for x in json.loads(pathlib.Path('uploaded-assets.json').read_text())}
+          for name, expected in manifest['files'].items():
+              a = actual[name]
+              assert a['state'] == 'uploaded' and a['size'] == expected['bytes'], name
+              assert a['digest'] == 'sha256:' + expected['sha256'], name
+              print('GitHub asset verified:', name, a['digest'])
+          PY
