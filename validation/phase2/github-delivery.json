@@ -1,0 +1,65 @@
+{
+  "workflow_run": "https://github.com/Night114514/sm-a1560-fingerprint-fix/actions/runs/43914376836",
+  "workflow_conclusion": "success",
+  "workflow_head_sha": "c5a41d86092650bc6df7e01cdcd0fe0d4af7187c",
+  "verified_assets": {
+    "TEST-REPORT.md": {
+      "id": 755705126,
+      "name": "TEST-REPORT.md",
+      "size": 7683,
+      "state": "uploaded",
+      "digest": "sha256:8fc76c21443b991698d063b336361383a5d6962b79db39e40251273cdf825190",
+      "browser_download_url": "https://github.com/Night114514/sm-a1560-fingerprint-fix/releases/download/phase2-los22.2-20260105-rro1/TEST-REPORT.md"
+    },
+    "sm-a1560-fingerprint-fix-source-and-validation.zip": {
+      "id": 755705132,
+      "name": "sm-a1560-fingerprint-fix-source-and-validation.zip",
+      "size": 453028,
+      "state": "uploaded",
+      "digest": "sha256:cb939e76a7d44d1a988aa696d7ffee7faf29d9fb42bd57965d25a268e4e6e2d8",
+      "browser_download_url": "https://github.com/Night114514/sm-a1560-fingerprint-fix/releases/download/phase2-los22.2-20260105-rro1/sm-a1560-fingerprint-fix-source-and-validation.zip"
+    },
+    "SmA1560FingerprintFix.apk": {
+      "id": 755705169,
+      "name": "SmA1560FingerprintFix.apk",
+      "size": 8604,
+      "state": "uploaded",
+      "digest": "sha256:4950eecf4aab9ab7ea8f9b46eac5ccb8f144974208af391aaa587e9e53efd9c9",
+      "browser_download_url": "https://github.com/Night114514/sm-a1560-fingerprint-fix/releases/download/phase2-los22.2-20260105-rro1/SmA1560FingerprintFix.apk"
+    },
+    "WINDOWS-DSU.md": {
+      "id": 755705129,
+      "name": "WINDOWS-DSU.md",
+      "size": 6659,
+      "state": "uploaded",
+      "digest": "sha256:50a99cd223c3829d1430c219a56a92601f53d2ba499fc613f82f48c0ffb879bc",
+      "browser_download_url": "https://github.com/Night114514/sm-a1560-fingerprint-fix/releases/download/phase2-los22.2-20260105-rro1/WINDOWS-DSU.md"
+    },
+    "system.img.xz": {
+      "id": 755705131,
+      "name": "system.img.xz",
+      "size": 1160448988,
+      "state": "uploaded",
+      "digest": "sha256:4a8641bd3557eb64abb2933742be320932cb821a5724a848994bc88a7a816b02",
+      "browser_download_url": "https://github.com/Night114514/sm-a1560-fingerprint-fix/releases/download/phase2-los22.2-20260105-rro1/system.img.xz"
+    },
+    "SHA256SUMS": {
+      "id": 755705128,
+      "name": "SHA256SUMS",
+      "size": 451,
+      "state": "uploaded",
+      "digest": "sha256:bf1477700fa81f5a7432e09d8a034895ef01a8736e0338fe7a03a7e8da7e25b5",
+      "browser_download_url": "https://github.com/Night114514/sm-a1560-fingerprint-fix/releases/download/phase2-los22.2-20260105-rro1/SHA256SUMS"
+    }
+  },
+  "published": true,
+  "release_url": "https://github.com/Night114514/sm-a1560-fingerprint-fix/releases/tag/phase2-los22.2-20260105-rro1",
+  "tag_name": "phase2-los22.2-20260105-rro1",
+  "public_download": {
+    "http_status": "206",
+    "bytes_requested": 64,
+    "bytes_received": 64,
+    "XZ_magic_verified": true,
+    "content_range": "bytes 0-63/1160448988"
+  }
+}
