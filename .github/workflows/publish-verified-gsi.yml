@@ -30,13 +30,16 @@ jobs:
         run: |
           set -euo pipefail
           sudo apt-get update -qq
-          sudo apt-get install -y -qq 7zip e2fsprogs
+          sudo apt-get install -y -qq e2fsprogs
           mkdir -p courier delivery
+          curl -fLsS --retry 3 'https://deb.debian.org/debian/pool/main/7/7zip/7zip-standalone_25.01+dfsg-1~deb13u2_amd64.deb' -o courier/7zip.deb
+          echo '7cd1563a6bf989c97aa8c12266cf892c1821eb737aeb9bba28d8e7f6613bd495  courier/7zip.deb' | sha256sum -c -
+          dpkg-deb -x courier/7zip.deb courier/7zip
           curl --http1.1 -fLsS --retry 5 --retry-all-errors --max-time 1200 \
             'https://downloads.sourceforge.net/project/misterztr-gsi/LineageOS/Android%2015/LineageOS-22.2-20260105-GAPPS-EXT4-GSI.7z' \
             -o courier/original.7z
           echo 'cf4992731f0fbb2a3d09fffeb16ed4f16ad8c023b38427cdc12a0818bc55c7c4  courier/original.7z' | sha256sum -c -
-          7zz x -so -bsp0 courier/original.7z LineageOS-22.2-20260105-GAPPS-EXT4-GSI.img | \
+          courier/7zip/usr/lib/7zip/7zz x -so -bsp0 courier/original.7z LineageOS-22.2-20260105-GAPPS-EXT4-GSI.img | \
             cp --sparse=always /dev/stdin courier/original-system.img
           echo 'cd3599e056ba82bc19379fbca7e81ee572589e0dd81b75092c1fee1691a077b7  courier/original-system.img' | sha256sum -c -
           chmod 444 courier/original-system.img
