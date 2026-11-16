@@ -102,3 +102,9 @@ python3 scripts/compress-verified.py --image work/gsi/system.img \
 ## DSU 邊界
 
 離線可以證實的，是 EXT4／AVB／映像大小／壓縮容器及 RRO 構造符合本版本的 system 映像要求。原版大小、分區名稱、公鑰與信任參數均保持一致。但沒有連接 SM-A1560，不能聲稱 Samsung DSU 已接受、已啟動或 AIDL 登記成功。實際操作與判讀見主 README 及本階段測試報告。
+
+## 位元組相同的交付
+
+本次 Cloud 的 GitHub API 可寫入倉庫與 Release metadata，但 uploads 端點回傳 401。為交付同一份已驗證映像，倉庫保存 `release-files/system-blocks.delta.gz`：全映像串流比較只有 45 個 4096-byte 區塊變動，差異包 137,067 bytes。`scripts/apply-image-delta.py` 只接受已鎖定的原版 SHA，重組後必須等於上方測試報告的 raw SHA，否則停止。
+
+GitHub Actions 只負責從相同原版重組這些已驗證位元組、使用與 Cloud 相同的 pinned xz binary/library 壓縮，並要求壓縮檔 SHA 也完全相同，才以上傳專用的 repository-scoped token 寫入既有 Release 草稿。不在 runner 上重新修改資源、生成指紋邏輯或更換簽章。此差異資料也讓原版與已驗證產物能在 Cloud 工作區以外重現。

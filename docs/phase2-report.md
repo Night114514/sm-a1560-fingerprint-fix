@@ -14,6 +14,8 @@
 
 XZ 使用 LZMA2 preset 6、8 MiB dictionary、CRC64。已執行 xz test 並完整解壓，確認解壓大小、SHA 與經 verify.sh 驗證的 raw 映像完全相同；寫出磁碟後的壓縮檔 SHA 也相同。
 
+交付使用全映像比較所得的 45 個 4 KiB 差異區塊（137,067-byte 差異包），由 GitHub Actions 重組已驗證的相同位元組，再要求 raw 與 XZ SHA 都與本表完全一致才上傳草稿；不是另一個未核對雜湊的重建版本。
+
 ## 來源與 Git 保存
 
 原版來自 [MisterZtr / LineageOS / Android 15](https://sourceforge.net/projects/misterztr-gsi/files/LineageOS/Android%2015/)，精確檔名 `LineageOS-22.2-20260105-GAPPS-EXT4-GSI.7z`，1,127,244,589 bytes。上游 SHA-1 `abf4270323de66ffeb9f9b6cc065669b04dad2a6` 與解壓 CRC32 `891C44A8` 均吻合。

@@ -2,15 +2,8 @@ name: Upload verified GSI delivery
 
 on:
   workflow_dispatch:
-    inputs:
-      base_url:
-        description: Temporary HTTPS origin containing only the verified release files
-        required: true
-        type: string
-      manifest_sha256:
-        description: SHA-256 of DELIVERY.json prepared after all image checks passed
-        required: true
-        type: string
+  repository_dispatch:
+    types: [upload-verified-gsi]
 
 permissions:
   contents: write
@@ -22,52 +15,74 @@ concurrency:
 jobs:
   transfer:
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
+    timeout-minutes: 60
     env:
       GH_REPO: ${{ github.repository }}
       RELEASE_ID: '447294982'
       RELEASE_TAG: phase2-los22.2-20260105-rro1
+      XZ_OPT: ''
+      XZ_DEFAULTS: ''
     steps:
-      - name: Download only the checksum-bound delivery files
-        env:
-          BASE_URL: ${{ inputs.base_url }}
-          EXPECTED_MANIFEST_SHA256: ${{ inputs.manifest_sha256 }}
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Download and authenticate the exact original GSI
         run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq 7zip e2fsprogs
+          mkdir -p courier delivery
+          curl --http1.1 -fLsS --retry 5 --retry-all-errors --max-time 1200 \
+            'https://downloads.sourceforge.net/project/misterztr-gsi/LineageOS/Android%2015/LineageOS-22.2-20260105-GAPPS-EXT4-GSI.7z' \
+            -o courier/original.7z
+          echo 'cf4992731f0fbb2a3d09fffeb16ed4f16ad8c023b38427cdc12a0818bc55c7c4  courier/original.7z' | sha256sum -c -
+          7zz x -so -bsp0 courier/original.7z LineageOS-22.2-20260105-GAPPS-EXT4-GSI.img | \
+            cp --sparse=always /dev/stdin courier/original-system.img
+          echo 'cd3599e056ba82bc19379fbca7e81ee572589e0dd81b75092c1fee1691a077b7  courier/original-system.img' | sha256sum -c -
+          chmod 444 courier/original-system.img
+      - name: Reconstruct the exact image already verified in Codex Cloud
+        run: |
+          set -euo pipefail
+          python3 scripts/apply-image-delta.py --input courier/original-system.img \
+            --delta release-files/system-blocks.delta.gz --metadata release-files/system-blocks.json \
+            --output courier/system.img
+          sudo e2fsck -f -n courier/system.img
+      - name: Reproduce and require the same compressed hash
+        run: |
+          set -euo pipefail
           python3 - <<'PY'
-          import hashlib, json, os, pathlib, re, urllib.parse, urllib.request
-          base = os.environ['BASE_URL'].rstrip('/') + '/'
-          u = urllib.parse.urlsplit(base)
-          assert u.scheme == 'https' and u.hostname.endswith('.trycloudflare.com')
-          assert not u.username and not u.password and not u.query and not u.fragment
-          expected = os.environ['EXPECTED_MANIFEST_SHA256']
-          assert re.fullmatch('[0-9a-f]{64}', expected)
-          with urllib.request.urlopen(base + 'DELIVERY.json', timeout=120) as r:
-              payload = r.read(1024 * 1024)
-          assert hashlib.sha256(payload).hexdigest() == expected
-          manifest = json.loads(payload)
-          allowed = {'system.img.xz', 'SHA256SUMS', 'TEST-REPORT.md', 'WINDOWS-DSU.md',
-                     'sm-a1560-fingerprint-fix-source-and-validation.zip', 'SmA1560FingerprintFix.apk'}
-          assert set(manifest['files']) == allowed
-          pathlib.Path('delivery').mkdir()
-          pathlib.Path('delivery/DELIVERY.json').write_bytes(payload)
-          for name, info in manifest['files'].items():
-              assert name in allowed and re.fullmatch('[0-9a-f]{64}', info['sha256'])
-              assert 0 < info['bytes'] < 2 * 1024**3
-              digest, size = hashlib.sha256(), 0
-              with urllib.request.urlopen(base + urllib.parse.quote(name), timeout=180) as source:
-                  with pathlib.Path('delivery', name).open('wb') as out:
-                      while True:
-                          b = source.read(1024 * 1024)
-                          if not b:
-                              break
-                          size += len(b)
-                          assert size <= info['bytes']
-                          digest.update(b)
-                          out.write(b)
-              assert size == info['bytes'] and digest.hexdigest() == info['sha256'], name
-              print(name, size, digest.hexdigest(), flush=True)
+          import hashlib, json, pathlib, subprocess, urllib.request
+          meta = json.loads(pathlib.Path('release-files/xz-toolchain.json').read_text())
+          root = pathlib.Path('courier/xz'); root.mkdir()
+          for name, info in meta['packages'].items():
+              file = root / (name + '.deb')
+              urllib.request.urlretrieve(info['url'], file)
+              assert hashlib.sha256(file.read_bytes()).hexdigest() == info['sha256']
+              subprocess.run(['dpkg-deb', '-x', str(file), str(root)], check=True)
           PY
-      - name: Upload to the existing draft using the repository-scoped Actions token
+          export LD_LIBRARY_PATH="$PWD/courier/xz/usr/lib/x86_64-linux-gnu"
+          courier/xz/usr/bin/xz -T4 -6 --block-size=24MiB --check=crc64 --memlimit-compress=1GiB \
+            --stdout courier/system.img > delivery/system.img.xz
+          echo '4a8641bd3557eb64abb2933742be320932cb821a5724a848994bc88a7a816b02  delivery/system.img.xz' | sha256sum -c -
+          courier/xz/usr/bin/xz --test delivery/system.img.xz
+      - name: Verify all delivery files before uploading
+        run: |
+          set -euo pipefail
+          cp release-files/TEST-REPORT.md release-files/WINDOWS-DSU.md release-files/SHA256SUMS \
+            release-files/sm-a1560-fingerprint-fix-source-and-validation.zip delivery/
+          cp dist/SmA1560FingerprintFix.apk delivery/
+          python3 - <<'PY'
+          import hashlib, json, pathlib
+          manifest = json.loads(pathlib.Path('release-files/DELIVERY.json').read_text())
+          for name, info in manifest['files'].items():
+              p = pathlib.Path('delivery', name)
+              h = hashlib.sha256()
+              with p.open('rb') as f:
+                  for b in iter(lambda: f.read(8 * 1024 * 1024), b''): h.update(b)
+              assert p.stat().st_size == info['bytes'] and h.hexdigest() == info['sha256'], name
+              print('Verified delivery file:', name, h.hexdigest())
+          PY
+      - name: Upload only to the existing draft with the repository-scoped Actions token
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -81,11 +96,11 @@ jobs:
           gh api "repos/$GH_REPO/releases/$RELEASE_ID/assets" > uploaded-assets.json
           python3 - <<'PY'
           import json, pathlib
-          manifest = json.loads(pathlib.Path('delivery/DELIVERY.json').read_text())
+          expected = json.loads(pathlib.Path('release-files/DELIVERY.json').read_text())['files']
           actual = {x['name']: x for x in json.loads(pathlib.Path('uploaded-assets.json').read_text())}
-          for name, expected in manifest['files'].items():
+          for name, info in expected.items():
               a = actual[name]
-              assert a['state'] == 'uploaded' and a['size'] == expected['bytes'], name
-              assert a['digest'] == 'sha256:' + expected['sha256'], name
+              assert a['state'] == 'uploaded' and a['size'] == info['bytes'], name
+              assert a['digest'] == 'sha256:' + info['sha256'], name
               print('GitHub asset verified:', name, a['digest'])
           PY

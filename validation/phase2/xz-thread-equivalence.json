@@ -1,0 +1,9 @@
+{
+  "sample_bytes": 83886080,
+  "compressed_sha256": {
+    "2": "957825bad1095d42cdcf00ff1c3ddab634fef8f37f1de49e4b7387970d5dc4ad",
+    "4": "957825bad1095d42cdcf00ff1c3ddab634fef8f37f1de49e4b7387970d5dc4ad"
+  },
+  "identical": true,
+  "full_published_image_hash_still_required_on_runner": true
+}

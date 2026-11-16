@@ -1,0 +1,16 @@
+{
+  "version": "5.8.1-1+deb13u2",
+  "packages": {
+    "xz-utils": {
+      "url": "https://deb.debian.org/debian/pool/main/x/xz-utils/xz-utils_5.8.1-1+deb13u2_amd64.deb",
+      "sha256": "66b060ef2f09722c947ba019da5e9a63f6bac9d7bf90b32339a72c0390acc53f"
+    },
+    "liblzma5": {
+      "url": "https://deb.debian.org/debian/pool/main/x/xz-utils/liblzma5_5.8.1-1+deb13u2_amd64.deb",
+      "sha256": "b38acab30f295bf1066a6632e31cbd0a1980f2924b38040cda131d5dea5384ec"
+    }
+  },
+  "binary_and_library_match_Codex_Cloud": true,
+  "XZ_OPT_present": false,
+  "XZ_DEFAULTS_present": false
+}
