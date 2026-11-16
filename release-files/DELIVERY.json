@@ -1,15 +1,15 @@
 {
   "repository": "https://github.com/Night114514/sm-a1560-fingerprint-fix",
-  "source_snapshot_commit": "f7bef570e9dd871ad63f2c0db1298aa6c83a51cb",
+  "source_snapshot_commit": "f3d328dea00ea29aebeef549344f6ba704868a80",
   "build_source_commit": "d053e04d9c2a0f398803de0a71d2efaa5d7843fc",
   "files": {
     "TEST-REPORT.md": {
-      "sha256": "1b7663ae3e471543976958936590fd7d66548c25584c475cfdc1a55797aa5d2b",
+      "sha256": "8fc76c21443b991698d063b336361383a5d6962b79db39e40251273cdf825190",
       "bytes": 7683
     },
     "sm-a1560-fingerprint-fix-source-and-validation.zip": {
-      "sha256": "212fac24b671db3e220a34c87d90ba7f75bfe4369ab50591d3bdb56a6a4d241c",
-      "bytes": 452891
+      "sha256": "cb939e76a7d44d1a988aa696d7ffee7faf29d9fb42bd57965d25a268e4e6e2d8",
+      "bytes": 453028
     },
     "SmA1560FingerprintFix.apk": {
       "sha256": "4950eecf4aab9ab7ea8f9b46eac5ccb8f144974208af391aaa587e9e53efd9c9",
@@ -24,7 +24,7 @@
       "bytes": 1160448988
     },
     "SHA256SUMS": {
-      "sha256": "fd32424da35147527a365e18332b75e9c4251555c34db5bd869c175ca2eb8f6b",
+      "sha256": "bf1477700fa81f5a7432e09d8a034895ef01a8736e0338fe7a03a7e8da7e25b5",
       "bytes": 451
     }
   }

@@ -2,7 +2,7 @@
 
 已製作供真機測試的 LineageOS 22.2 / 20260105 GApps EXT4 ARM64 A/B GSI。離線檢查已通過；**尚未在 SM-A1560 安裝、啟動或完成 AIDL 指紋登記，不能聲稱指紋已修復。**
 
-[下載 Release](https://github.com/Night114514/sm-a1560-fingerprint-fix/releases/tag/phase2-los22.2-20260105-rro1) · [Git Repository](https://github.com/Night114514/sm-a1560-fingerprint-fix) · [Windows 安裝與驗證](https://github.com/Night114514/sm-a1560-fingerprint-fix/releases/download/phase2-los22.2-20260105-rro1/WINDOWS-DSU.md) · [完整構建方式](https://github.com/Night114514/sm-a1560-fingerprint-fix/blob/f7bef570e9dd871ad63f2c0db1298aa6c83a51cb/docs/phase2-build.md)
+[下載 Release](https://github.com/Night114514/sm-a1560-fingerprint-fix/releases/tag/phase2-los22.2-20260105-rro1) · [Git Repository](https://github.com/Night114514/sm-a1560-fingerprint-fix) · [Windows 安裝與驗證](https://github.com/Night114514/sm-a1560-fingerprint-fix/releases/download/phase2-los22.2-20260105-rro1/WINDOWS-DSU.md) · [完整構建方式](https://github.com/Night114514/sm-a1560-fingerprint-fix/blob/f3d328dea00ea29aebeef549344f6ba704868a80/docs/phase2-build.md)
 
 ## 交付雜湊
 
